@@ -1,0 +1,97 @@
+INSERT INTO Summoner_Spell (name, icon_url) VALUES
+    ('Flash', 'https://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/SummonerFlash.png'),
+    ('Teleport', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerTeleport.png'),
+    ('Smite', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerSmite.png'),
+    ('Heal', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerHeal.png'),
+    ('Ignite', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerDot.png'),
+    ('Exhaust', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerExhaust.png'),
+    ('Barrier', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerBarrier.png'),
+    ('Ghost', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerHaste.png'),
+    ('Cleanse', 'https://ddragon.leagueoflegends.com/cdn/13.16.1/img/spell/SummonerBoost.png');
+
+
+-- Domination Tree Runes
+INSERT INTO Rune (name, icon_url, tree, tree_row)
+VALUES
+    ('Electrocute', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/Electrocute/Electrocute.png', 'Domination', 1),
+    ('Predator', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/Predator/Predator.png', 'Domination', 1),
+    ('Dark Harvest', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png', 'Domination', 1),
+    ('Hail of Blades', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png', 'Domination', 1),
+    ('Cheap Shot', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/CheapShot/CheapShot.png', 'Domination', 2),
+    ('Taste of Blood', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png', 'Domination', 2),
+    ('Sudden Impact', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png', 'Domination', 2),
+    ('Zombie Ward', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/ZombieWard/ZombieWard.png', 'Domination', 3),
+    ('Ghost Poro', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/GhostPoro/GhostPoro.png', 'Domination', 3),
+    ('Eyeball Collection', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/EyeballCollection/EyeballCollection.png', 'Domination', 3),
+    ('Treasure Hunter', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png', 'Domination', 4),
+    ('Ingenious Hunter', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/IngeniousHunter/IngeniousHunter.png', 'Domination', 4),
+    ('Relentless Hunter', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png', 'Domination', 4),
+    ('Ultimate Hunter', 'https://ddragon.canisback.com/img/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png', 'Domination', 4);
+
+	-- Precision Tree Runes
+INSERT INTO Rune (name, icon_url, tree, tree_row)
+VALUES
+    ('Press the Attack', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png', 'Precision', 1),
+    ('Lethal Tempo', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/LethalTempo/LethalTempo.png', 'Precision', 1),
+    ('Fleet Footwork', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png', 'Precision', 1),
+    ('Conqueror', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/Conqueror/Conqueror.png', 'Precision', 1),
+    ('Overheal', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/Overheal/Overheal.png', 'Precision', 2),
+    ('Triumph', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/Triumph/Triumph.png', 'Precision', 2),
+    ('Presence of Mind', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png', 'Precision', 2),
+    ('Legend: Alacrity', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png', 'Precision', 3),
+    ('Legend: Tenacity', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/LegendTenacity/LegendTenacity.png', 'Precision', 3),
+    ('Legend: Bloodline', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png', 'Precision', 3),
+    ('Coup de Grace', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png', 'Precision', 4),
+    ('Cut Down', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/CutDown/CutDown.png', 'Precision', 4),
+    ('Last Stand', 'https://ddragon.canisback.com/img/perk-images/Styles/Precision/LastStand/LastStand.png', 'Precision', 4);
+	
+	-- Inspiration Tree Runes
+INSERT INTO Rune (name, icon_url, tree, tree_row)
+VALUES
+    ('Glacial Augment', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png', 'Inspiration', 1),
+    ('Unsealed Spellbook', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png', 'Inspiration', 1),
+    ('Prototype: Omnistone', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/PrototypeOmnistone/PrototypeOmnistone.png', 'Inspiration', 1),
+    ('Hextech Flashtraption', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png', 'Inspiration', 1),
+    ('Magical Footwear', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png', 'Inspiration', 2),
+    ('Perfect Timing', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/PerfectTiming/PerfectTiming.png', 'Inspiration', 2),
+    ('Futures Market', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/FuturesMarket/FuturesMarket.png', 'Inspiration', 2),
+    ('Minion Dematerializer', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/MinionDematerializer/MinionDematerializer.png', 'Inspiration', 3),
+    ('Biscuit Delivery', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png', 'Inspiration', 3),
+    ('Cosmic Insight', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png', 'Inspiration', 3),
+    ('Approach Velocity', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/ApproachVelocity/ApproachVelocity.png', 'Inspiration', 4),
+    ('Time Warp Tonic', 'https://ddragon.canisback.com/img/perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png', 'Inspiration', 4);
+
+	-- Resolve Tree Runes
+INSERT INTO Rune (name, icon_url, tree, tree_row)
+VALUES
+    ('Grasp of the Undying', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png', 'Resolve', 1),
+    ('Aftershock', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Aftershock/Aftershock.png', 'Resolve', 1),
+    ('Guardian', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Guardian/Guardian.png', 'Resolve', 1),
+    ('Demolish', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Demolish/Demolish.png', 'Resolve', 2),
+    ('Font of Life', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png', 'Resolve', 2),
+    ('Shield Bash', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/ShieldBash/ShieldBash.png', 'Resolve', 2),
+    ('Conditioning', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Conditioning/Conditioning.png', 'Resolve', 3),
+    ('Second Wind', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/SecondWind/SecondWind.png', 'Resolve', 3),
+    ('Bone Plating', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/BonePlating/BonePlating.png', 'Resolve', 3),
+    ('Overgrowth', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png', 'Resolve', 4),
+    ('Revitalize', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Revitalize/Revitalize.png', 'Resolve', 4),
+    ('Unflinching', 'https://ddragon.canisback.com/img/perk-images/Styles/Resolve/Unflinching/Unflinching.png', 'Resolve', 4);
+
+-- Sorcery Tree Keystones
+INSERT INTO Rune (name, icon_url, tree, tree_row)
+VALUES
+    ('Summon Aery', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/7202_Sorcery.png', 'Sorcery', 1),
+    ('Arcane Comet', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/7202_Sorcery.png', 'Sorcery', 1),
+    ('Phase Rush', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/7202_Sorcery.png', 'Sorcery', 1),
+    ('Nullifying Orb', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/Pokeshield.png', 'Sorcery', 2),
+    ('Manaflow Band', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/ManaflowBand.png', 'Sorcery', 2),
+    ('Nimbus Cloak', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/6361.png', 'Sorcery', 2),
+    ('Transcendence', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/Transcendence.png', 'Sorcery', 3),
+    ('Celerity', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/CelerityTemp.png', 'Sorcery', 3),
+    ('Absolute Focus', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/AbsoluteFocus.png', 'Sorcery', 3),
+    ('Scorch', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/Scorch.png', 'Sorcery', 4),
+    ('Waterwalking', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png', 'Sorcery', 4),
+    ('Gathering Storm', 'https://ddragon.canisback.com/img/perk-images/Styles/Sorcery/GatheringStorm.png', 'Sorcery', 4);
+
+
+
