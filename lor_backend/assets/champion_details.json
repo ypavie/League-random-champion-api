@@ -1,0 +1,504 @@
+{
+    "Aurelion Sol": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "species": [
+            "Celestial",
+            "Dragon"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Runeterra",
+            "Targon"
+        ],
+        "release year": [
+            "2016"
+        ]
+    },
+    "Belveth": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Manaless"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": [
+            "2022"
+        ]
+    },
+    "Chogath": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": [
+            "2009"
+        ]
+    },
+    "DrMundo": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "species": [
+            "Chemically Altered",
+            "Human"
+        ],
+        "resources": [
+            "Health costs"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Zaun"
+        ],
+        "release year": [
+            "2009"
+        ]
+    },
+    "Jarvan IV": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Demacia"
+        ],
+        "release year": [
+            "2011"
+        ]
+    },
+    "Leblanc": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "species": [
+            "Human",
+            "Magically Altered"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Noxus"
+        ],
+        "release year": [
+            "2010"
+        ]
+    },
+    "Lee Sin": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "resources": [
+            "Energy"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Ionia"
+        ],
+        "release year": [
+            "2011"
+        ]
+    },
+    "Master Yi": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Ionia"
+        ],
+        "release year": [
+            "2009"
+        ]
+    },
+    "Miss Fortune": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "species": [
+            "Human"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Bilgewater"
+        ],
+        "release year": [
+            "2010"
+        ]
+    },
+    "Wukong": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle",
+            "Top"
+        ],
+        "species": [
+            "Vastayan"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Ionia"
+        ],
+        "release year": [
+            "2011"
+        ]
+    },
+    "Nunu": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human",
+            "Yeti"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Freljord"
+        ],
+        "release year": [
+            "2009"
+        ]
+    },
+    "Rek'Sai": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Rage"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Shurima",
+            "Void"
+        ],
+        "release year": [
+            "2014"
+        ]
+    },
+    "Renata": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Support"
+        ],
+        "species": [
+            "Chemically Altered",
+            "Human"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Zaun"
+        ],
+        "release year": [
+            "2022"
+        ]
+    },
+    "Tahm Kench": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Support",
+            "Top"
+        ],
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Bilgewater",
+            "Runeterra"
+        ],
+        "release year": [
+            "2015"
+        ]
+    },
+    "Twisted Fate": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Middle"
+        ],
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Bilgewater"
+        ],
+        "release year": [
+            "2009"
+        ]
+    },
+    "Vel'koz": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": [
+            "2014"
+        ]
+    },
+    "Xin Zhao": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Demacia",
+            "Ionia",
+            "Noxus"
+        ],
+        "release year": [
+            "2010"
+        ]
+    },
+    "Kaisa": {
+        "gender": [
+            "Female"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "species": [
+            "Human",
+            "Void-Being"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Shurima",
+            "Void"
+        ],
+        "release year": [
+            "2018"
+        ]
+    },
+    "Khazix": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": [
+            "2012"
+        ]
+    },
+    "Kog'Maw": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Bottom"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": [
+            "2010"
+        ]
+    },
+    "K'Sante": {
+        "gender": [
+            "Male"
+        ],
+        "positions": [
+            "Top"
+        ],
+        "species": [
+            "Human"
+        ],
+        "resources": [
+            "Mana"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Shurima"
+        ],
+        "release year": [
+            "2022"
+        ]
+    }
+}

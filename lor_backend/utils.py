@@ -213,14 +213,13 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
             champion_with_urls = {}
 
             champion_with_urls["name"] = current_champion["name"].replace(" ", "")
-            pprint(current_champion)
-
+            
             champion_with_urls["icon"] = champion_data[champion_with_urls["name"]]["icon"]
 
             champion_with_urls["role"] = [current_champion["role"], current_champion["role"]]
 
             current_spell_to_max = ["Q", "W", "E"][int(current_champion["spell_to_max"])]
-            current_spell_to_max_url = "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/" + champion_data[champion_with_urls["name"]]["spells"][int(current_champion["spell_to_max"])] + ".png"
+            current_spell_to_max_url = champion_data[champion_with_urls["name"]]["spells"][int(current_champion["spell_to_max"])]
             champion_with_urls["spell_to_max"] = [
                 current_spell_to_max,
                 current_spell_to_max_url,

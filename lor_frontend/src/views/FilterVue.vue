@@ -84,85 +84,13 @@
         showFilters: false,
         year: 2009,
         waitingForResponse: false,
-        filters : {
-            
-        },
-        
+      
         filterType: {
-            "select": ["Species", "Region",],
+            "select": ["Species", "Region", "Skinlines"],
             "radio": ["Gender", "Class", "Mana source", "Range",],
         },
-        tags: {
-            "Class":[
-                "Assassin",
-                "Fighter",
-                "Mage",
-                "Marksman",
-                "Support",
-                "Tank",
-            ],
-            "Region": [
-                "Bandle City",
-                "Bilgewater",
-                "Camavor",
-                "Demacia",
-                "Freljord",
-                "Icathia",
-                "Ionia",
-                "Ixtal",
-                "Noxus",
-                "Piltover",
-                "Runeterra",
-                "Shadow Isles",
-                "Shurima",
-                "Targon",
-                "Void",
-                "Zaun",
-            ],
-            "Gender": [
-                "Female",
-                "Male",
-                "Other",
-            ],
-            "Species": [
-                "Aspect",
-                "Brackern",
-                "Cat",
-                "Celestial",
-                "Chemically Altered",
-                "Cyborg",
-                "Darkin",
-                "Demon",
-                "Dog",
-                "Dragon",
-                "God",
-                "God-Warrior",
-                "Golem",
-                "Human",
-                "Iceborn",
-                "Magically Altered",
-                "Magicborn",
-                "Minotaur",
-                "Rat",
-                "Revenant",
-                "Spirit",
-                "Spiritualist",
-                "Troll",
-                "Undead",
-                "Unknown",
-                "Vastayan",
-                "Void-Being",
-                "Yordle",
-            ],
-            "Mana source": [
-                "Mana",
-                "Manaless",
-                "Other",
-            ],
-            "Range": [
-                "Melee",
-                "Ranged",
-            ],
+        filters: {
+            'Release year': 2009
         }
       };
     },
@@ -203,8 +131,17 @@
             });
             return title;
         },
+        loadChampionFromUrl() {
+            const currentUrl = window.location.href;
+            const url = new URL(currentUrl);
+            const pathSegments = url.pathname.split('/');
+            const id = pathSegments.pop();
+
+            if (id !== '' && !isNaN(id)) {
+                this.fetchChampionData(id);
+            }
+        },
         async fetchChampionData(id) {
-            // path('champion/<int:id>', views.get_champion),
             try{
                 const id_response = await fetch('http://localhost:8000/champion/' + id, {
                     method: 'GET',
@@ -217,21 +154,26 @@
             } catch (error) {
                 console.error(error);
             }
-
         },
+        async loadFilters(){
+            try{
+                const filters_response = await fetch('http://localhost:8000/data/possible_values', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+                const filters_data = await filters_response.json();
+                this.tags = {...this.tags, ...filters_data};
+                console.log(this.tags)
+            } catch (error) {
+                return
+            }
+        }
     },
     mounted() {
-        // extract id from url
-        const currentUrl = window.location.href;
-        const url = new URL(currentUrl);
-        const pathSegments = url.pathname.split('/');
-        const id = pathSegments.pop();
-
-        // if id is not empty and is an integer, fetch champion data
-        if (id !== '' && !isNaN(id)) {
-            this.fetchChampionData(id);
-        }
-
+        this.loadChampionFromUrl();
+        this.loadFilters();
     },
 
   };

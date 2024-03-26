@@ -38,7 +38,6 @@ export default {
             this.sendFilters();
         },
         async sendFilters() {
-            // send to http://localhost:8000/random_champion, with filters and a banlist (empty for now)
             try{
                 const id_response = await fetch('http://localhost:8000/random_champion', {
                     method: 'POST',
