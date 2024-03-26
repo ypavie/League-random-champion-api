@@ -1,0 +1,30 @@
+{
+    "flash": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerFlash.png"
+    },
+    "teleport": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerTeleport.png"
+    },
+    "smite": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerSmite.png"
+    },
+    "heal": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerHeal.png"
+    },
+    "ignite": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerDot.png"
+    },
+    "exhaust": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerExhaust.png"
+    },
+    "barrier": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerBarrier.png"
+    },
+    "ghost": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerHaste.png"
+    },
+    "cleanse": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SummonerBoost.png"
+    }
+
+}
