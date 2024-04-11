@@ -44,9 +44,10 @@ def get_data(request: Any, file: str) -> HttpResponse:
 @api_view(['POST'])
 def get_random_champion(request: Any) -> Response:
     if request.method == 'POST':
-        ban_list: List[str] = request.data.get('ids', [])
+        allowedChampionList: List[str] = request.data.get('allowedChampionList', [])
+        print(allowedChampionList)
 
-        random_champion: Dict[str, Any] = generate_random_champion()
+        random_champion: Dict[str, Any] = generate_random_champion(allowedChampionList)
         random_champion['unique_id'] = 0
         
         while Champion.objects.filter(unique_id=random_champion['unique_id']).exists():

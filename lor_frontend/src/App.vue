@@ -11,7 +11,11 @@
             /> 
         </div>
         <div class="col-span-1 md:col-span-4 overflow-y-auto">
-            <ChampionList :champions="champions" ref="championList"/>
+            <ChampionList 
+                :champions="champions" 
+                @bannedChampions="updateBannedChampions"
+                ref="championList"
+            />
         </div>
     </div>
     <AppFooter />
@@ -75,6 +79,7 @@ export default {
             }
         },
         async generate() {
+            const allowedChampionList = this.getAllowedChampionlist();
             try {
                 const id_response = await fetch('http://localhost:8000/random_champion', {
                     method: 'POST',
@@ -82,7 +87,7 @@ export default {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        banlist: []
+                        allowedChampionList: allowedChampionList
                     })
                 });
                 const data = await id_response.json();
@@ -101,14 +106,18 @@ export default {
         },
         updateSearchTerm(searchTerm) {
             this.currentSearchTerm = searchTerm;
-            this.updateBanFilterList();
+            const filteredChampions = this.getFilterList();
+            this.$refs.championList.updateFilteredlist(filteredChampions);
         },
         updateFilters(filters) {
             this.filters = filters;
-            this.updateBanFilterList();
+            const filteredChampions = this.getFilterList();
+            this.$refs.championList.updateFilteredlist(filteredChampions);
         },
-        updateBanFilterList() {
-            console.log(this.filters);
+        updateBannedChampions(bannedChampions) {
+            this.bannedChampions = bannedChampions;
+        },
+        getFilterList() {
             const filteredChampions = {};
             for (const championKey in this.champions) {
                 if (championKey.toLowerCase().includes(this.currentSearchTerm.toLowerCase())) {
@@ -139,8 +148,13 @@ export default {
                     delete filteredChampions[championKey];
                 }
             }
-            console.log(filteredChampions);
-            this.$refs.championList.updateFilteredlist(filteredChampions);
+            return filteredChampions;
+        },
+        getAllowedChampionlist() {
+            const filteredChampions = this.getFilterList();
+            const banlist = Object.keys(filteredChampions).filter(champion => this.bannedChampions.includes(champion));
+            const allowedChampionlist = Object.keys(filteredChampions).filter(champion => !banlist.includes(champion));
+            return allowedChampionlist;
         }
 
     },

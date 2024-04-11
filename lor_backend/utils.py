@@ -99,11 +99,11 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
     return item_names
 
 
-def get_random_champion(champion_data: Dict[str, Dict[str, str]], banned_champions_ids: List[str]) -> str:
+def get_random_champion(champion_data: Dict[str, Dict[str, str]], allowedChampionList: List[str]) -> str:
     filtered_champion_ids = list(champion_data.keys())
     
-    if banned_champions_ids:
-        filtered_champion_ids = [champion_id for champion_id in filtered_champion_ids if champion_id not in banned_champions_ids]
+    if allowedChampionList:
+        filtered_champion_ids = [champion_id for champion_id in filtered_champion_ids if champion_id in allowedChampionList]
 
     random_champion_id = np.random.choice(filtered_champion_ids)
     return champion_data[random_champion_id]["name"]
@@ -136,8 +136,8 @@ def get_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane: str
     return generate_random_items(item_data, name, lane)
 
 
-def generate_random_match_data(champion_data: Dict[str, Dict[str, str]], banned_champions_ids: List[str], lanes_available: str, summoner_spell_data: Dict[str, Dict[str, bool]], rune_data: Dict[str, Dict[str, List[Dict[str, List[str]]]]], item_data: Dict[str, Dict[str, bool]]) -> Dict[str, str]:
-    name = get_random_champion(champion_data, banned_champions_ids)
+def generate_random_match_data(champion_data: Dict[str, Dict[str, str]], allowedChampionList: List[str], lanes_available: str, summoner_spell_data: Dict[str, Dict[str, bool]], rune_data: Dict[str, Dict[str, List[Dict[str, List[str]]]]], item_data: Dict[str, Dict[str, bool]]) -> Dict[str, str]:
+    name = get_random_champion(champion_data, allowedChampionList)
     spell_to_max = get_random_spell_to_max()
     lane = get_random_lane(lanes_available)
     items = get_random_items(item_data, name, lane)
@@ -171,7 +171,7 @@ def generate_random_match_data(champion_data: Dict[str, Dict[str, str]], banned_
     }
 
 
-def generate_random_champion(banned_champions_ids: List[str] = None, lanes_available = ["top", "jungle", "mid", "adc", "support"]) -> Dict[str, str]:
+def generate_random_champion(allowedChampionList: List[str] = None, lanes_available = ["top", "jungle", "mid", "adc", "support"]) -> Dict[str, str]:
     assets_dir = os.path.join(settings.BASE_DIR, 'lor_backend', 'assets')
     champions_json_path = os.path.join(assets_dir, 'champions.json')
     items_json_path = os.path.join(assets_dir, 'items.json')
@@ -189,7 +189,7 @@ def generate_random_champion(banned_champions_ids: List[str] = None, lanes_avail
             rune_data = json.load(runes_json)
             summoner_spell_data = json.load(summoner_spells_json)
 
-            return generate_random_match_data(champion_data, banned_champions_ids, lanes_available, summoner_spell_data, rune_data, item_data)
+            return generate_random_match_data(champion_data, allowedChampionList, lanes_available, summoner_spell_data, rune_data, item_data)
 
     except FileNotFoundError:
         print("File not found")
