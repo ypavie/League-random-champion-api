@@ -217,20 +217,6 @@
         "Pyke",
         "Naafiri"
     ],
-    "Star Guardian Season 1": [
-        "Janna",
-        "Poppy",
-        "Lux",
-        "Lulu",
-        "Jinx"
-    ],
-    "Star Guardian Season 2": [
-        "Soraka",
-        "MissFortune",
-        "Ezreal",
-        "Ahri",
-        "Syndra"
-    ],
     "Super Galaxy": [
         "Annie",
         "Elise",
@@ -1234,12 +1220,6 @@
         "Viktor",
         "Jayce"
     ],
-    "Star Guardian Season 3": [
-        "Zoe",
-        "Rakan",
-        "Xayah",
-        "Neeko"
-    ],
     "True Damage": [
         "Akali",
         "Yasuo",
@@ -1548,24 +1528,6 @@
         "Varus",
         "Kayn",
         "Illaoi"
-    ],
-    "Star Guardian Season 4": [
-        "Fiddlesticks",
-        "Morgana",
-        "Sona",
-        "Orianna",
-        "Akali",
-        "Quinn",
-        "Syndra",
-        "Kaisa",
-        "Seraphine",
-        "Taliyah",
-        "Senna",
-        "Ekko",
-        "Rakan",
-        "Xayah",
-        "Rell",
-        "Nilah"
     ],
     "Monster Tamers": [
         "Veigar",
@@ -1911,5 +1873,37 @@
     ],
     "Crystalis Indomitus": [
         "KhaZix"
+    ],
+    "Star Guardian": [
+        "Janna",
+        "Poppy",
+        "Lux",
+        "Lulu",
+        "Jinx",
+        "Soraka",
+        "MissFortune",
+        "Ezreal",
+        "Ahri",
+        "Syndra",
+        "Zoe",
+        "Rakan",
+        "Xayah",
+        "Neeko",
+        "Fiddlesticks",
+        "Morgana",
+        "Sona",
+        "Orianna",
+        "Akali",
+        "Quinn",
+        "Syndra",
+        "Kaisa",
+        "Seraphine",
+        "Taliyah",
+        "Senna",
+        "Ekko",
+        "Rakan",
+        "Xayah",
+        "Rell",
+        "Nilah"
     ]
 }

@@ -81,7 +81,6 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
     
     legendary_items = [item for item in item_data.keys() if item_data[item].get("last_upgrade", False) and item not in support_items]
 
-    # Pick a random item
     while len(item_names) < 6:
         item = random.choice(legendary_items)
 
@@ -93,6 +92,9 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
                 continue
             
         item_names.append(item)
+
+    starter_item = np.random.choice([item for item in item_data.keys() if item_data[item].get("is_starter", False)])
+    item_names.append(starter_item)
 
     return item_names
 
@@ -164,7 +166,8 @@ def generate_random_match_data(champion_data: Dict[str, Dict[str, str]], banned_
         "item_3": items[2],
         "item_4": items[3],
         "item_5": items[4],
-        "item_6": items[5]
+        "item_6": items[5],
+        "starter_item": items[6],
     }
 
 
@@ -209,6 +212,13 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
             item_data = json.load(items_json)
             rune_data = json.load(runes_json)
             summoner_spell_data = json.load(summoner_spells_json)
+            roles = {
+                "top": "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/top.png",
+                "jungle": "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/jungle.png",
+                "mid": "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/middle.png",
+                "adc": "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/bottom.png",
+                "support": "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/support.png",
+            }
 
             champion_with_urls = {}
 
@@ -216,7 +226,7 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
             
             champion_with_urls["icon"] = champion_data[champion_with_urls["name"]]["icon"]
 
-            champion_with_urls["role"] = [current_champion["role"], current_champion["role"]]
+            champion_with_urls["role"] = [current_champion["role"], roles[current_champion["role"]]]
 
             current_spell_to_max = ["Q", "W", "E"][int(current_champion["spell_to_max"])]
             current_spell_to_max_url = champion_data[champion_with_urls["name"]]["spells"][int(current_champion["spell_to_max"])]
@@ -234,7 +244,7 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
                 current_champion["summoner_spell_2"],
                 summoner_spell_data[current_champion["summoner_spell_2"]]["icon"],
             ]
-
+            
             champion_with_urls["rune_main_tree"] = [
                 current_champion["rune_main_tree"],
                 rune_data[current_champion["rune_main_tree"]]["icon"],
@@ -242,22 +252,22 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
 
             champion_with_urls["rune_main_keystone"] = [
                 current_champion["rune_main_keystone"],
-                rune_data[current_champion["rune_main_tree"]]["slots"][0]["runes"][0]["icon"],
+                next(rune["icon"] for rune in rune_data[current_champion["rune_main_tree"]]["slots"][0]["runes"] if rune["key"] == current_champion["rune_main_keystone"]),
             ]
 
             champion_with_urls["rune_main_1"] = [
                 current_champion["rune_main_1"],
-                rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"][0]["icon"],
+                next(rune["icon"] for rune in rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"] if rune["key"] == current_champion["rune_main_1"]),
             ]
 
             champion_with_urls["rune_main_2"] = [
                 current_champion["rune_main_2"],
-                rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"][1]["icon"],
+                next(rune["icon"] for rune in rune_data[current_champion["rune_main_tree"]]["slots"][2]["runes"] if rune["key"] == current_champion["rune_main_2"]),
             ]
 
             champion_with_urls["rune_main_3"] = [
                 current_champion["rune_main_3"],
-                rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"][2]["icon"],
+                next(rune["icon"] for rune in rune_data[current_champion["rune_main_tree"]]["slots"][3]["runes"] if rune["key"] == current_champion["rune_main_3"]),
             ]
 
             champion_with_urls["rune_secondary_tree"] = [
@@ -265,31 +275,41 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
                 rune_data[current_champion["rune_secondary_tree"]]["icon"],
             ]
 
+            matched_secondary_runes = []
+
+            for slot in range(4):
+                for rune in rune_data[current_champion["rune_secondary_tree"]]["slots"][slot]["runes"]:
+                    if rune["key"] == current_champion["rune_secondary_1"] or rune["key"] == current_champion["rune_secondary_2"]:
+                        matched_secondary_runes.append(rune["icon"])
+
+                if len(matched_secondary_runes) == 2:
+                    break
 
             champion_with_urls["rune_secondary_1"] = [
                 current_champion["rune_secondary_1"],
-                rune_data[current_champion["rune_secondary_tree"]]["slots"][1]["runes"][0]["icon"],
+                matched_secondary_runes[0] if len(matched_secondary_runes) >= 1 else None
             ]
 
             champion_with_urls["rune_secondary_2"] = [
                 current_champion["rune_secondary_2"],
-                rune_data[current_champion["rune_secondary_tree"]]["slots"][1]["runes"][1]["icon"],
+                matched_secondary_runes[1] if len(matched_secondary_runes) == 2 else None
             ]
 
             champion_with_urls["rune_shard_1"] = [
                 current_champion["rune_shard_1"],
-                rune_data["Shards"]["slots"][0]["runes"][0]["icon"],
+                next(rune["icon"] for rune in rune_data["Shards"]["slots"][0]["runes"] if rune["key"] == current_champion["rune_shard_1"]),
             ]
 
             champion_with_urls["rune_shard_2"] = [
                 current_champion["rune_shard_2"],
-                rune_data["Shards"]["slots"][1]["runes"][0]["icon"],
+                next(rune["icon"] for rune in rune_data["Shards"]["slots"][1]["runes"] if rune["key"] == current_champion["rune_shard_2"]),
             ]
 
             champion_with_urls["rune_shard_3"] = [
                 current_champion["rune_shard_3"],
-                rune_data["Shards"]["slots"][2]["runes"][0]["icon"],
+                next(rune["icon"] for rune in rune_data["Shards"]["slots"][2]["runes"] if rune["key"] == current_champion["rune_shard_3"]),
             ]
+            
 
             champion_with_urls["item_1"] = [
                 current_champion["item_1"],
@@ -321,8 +341,12 @@ def champion_to_url(current_champion: Dict[str, Dict[str, str]]) -> str:
                 item_data[current_champion["item_6"]]["icon"],
             ]
 
-            champion_with_urls["unique_id"] = current_champion["unique_id"]
+            champion_with_urls["starter_item"] = [
+                current_champion["starter_item"],
+                item_data[current_champion["starter_item"]]["icon"],
+            ]
 
+            champion_with_urls["unique_id"] = current_champion["unique_id"]
             return champion_with_urls
 
     except FileNotFoundError:

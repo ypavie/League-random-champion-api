@@ -45,11 +45,10 @@ def get_data(request: Any, file: str) -> HttpResponse:
 def get_random_champion(request: Any) -> Response:
     if request.method == 'POST':
         ban_list: List[str] = request.data.get('ids', [])
-        filters: Dict[str, str] = request.data.get('filters', {})
 
         random_champion: Dict[str, Any] = generate_random_champion()
         random_champion['unique_id'] = 0
-        # get an id that is not already in the database
+        
         while Champion.objects.filter(unique_id=random_champion['unique_id']).exists():
             random_champion['unique_id'] += 1
 

@@ -1,75 +1,166 @@
 <template>
-  <!-- <HeaderVue />
-  <div class="main-container">
-    <div class="left-container">
-        <SelectedChampionVue :champion="selectedChampion" />
+    <AppHeader />
+    <div class="grid grid-cols-1 md:grid-cols-10 gap-4 mx-auto md:h-[93.5vh] bg-white py-10 px-4 sm:px-6 lg:px-8 dark:bg-gray-800">
+        <div class="col-span-1 md:col-span-6 p-4 overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg">
+            <GenerateRandomChampion ref="generateRandomChampion" 
+                @update-filter="updateFilters"
+                @input-change="updateSearchTerm"
+                @select-all="selectAll"
+                @unselect-all="unselectAll"
+                @generate="generate"
+            /> 
+        </div>
+        <div class="col-span-1 md:col-span-4 overflow-y-auto">
+            <ChampionList :champions="champions" ref="championList"/>
+        </div>
     </div>
-    <div class="right-container">
-      <ChampionListVue />
-    </div>
-  </div> -->
-  <UIView />
+    <AppFooter />
 </template>
+  
 
 <script>
-// import FilterVue from './views/FilterVue.vue'
-// import SelectedChampionVue from './views/SelectedChampionVue.vue'
-// import ChampionListVue from './views/ChampionListVue.vue'
-// import HeaderVue from './views/HeaderVue.vue'
-import UIView from './views/UIView.vue'
+
+import ChampionList from './view/main/ChampionList.vue'
+import GenerateRandomChampion from './view/main/GenerateRandomChampion.vue'
+import AppHeader from './view/layout/AppHeader.vue'
+import AppFooter from './view/layout/AppFooter.vue'
 
 export default {
   components: {
-    // FilterVue,
-    // ChampionListVue,
-    // SelectedChampionVue,
-    // HeaderVue,
-    UIView
+    AppHeader,
+    AppFooter,
+    ChampionList,
+    GenerateRandomChampion,
   },
   data() {
-    return {
-      selectedChampion: null,
-      dataLoading: true
-    }
-  },
-  created() {
-    // Start the async call to the backend URL when the component is created
-    this.fetchData();
-    console.log('App.vue created');
-  },
-  methods: {
-    fetchData() {
-      const currentUrl = window.location.href;
-      const url = new URL(currentUrl);
-      const pathSegments = url.pathname.split('/');
-      const id = pathSegments.pop(); // Get the last segment from the path
-      if (id === '') return;
-
-      this.updateSelectedChampion(id);
-    },
-    async updateSelectedChampion(id) {
-      try {
-        const response = await fetch(`http://localhost:8000/champion/${id}`);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
+        return {
+            showFilters: false,
+            year: 2009,
+            filters: {},
+            champions: [],
+            filteredChampions: {},
+            bannedChampions: [],
+            currentSearchTerm: '',
         }
-        const data = await response.json();
-        this.selectedChampion = data;
-        console.log('Selected champion:', this.selectedChampion);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        this.dataLoading = false; // Handle errors by setting dataLoading to false
-      }
-    }
-  },
+    },
+    methods: { 
+        sendChampionListFiltered(filters) {
+            const filteredChampions = this.updateFilters(filters);
+            if (this.currentSearchTerm !== '') {
+                for (const championKey in this.champions) {
+                    if (championKey.toLowerCase().includes(this.currentSearchTerm.toLowerCase())) {
+                        filteredChampions[championKey] = this.champions[championKey];
+                    }
+                }
+            }
+            this.$refs.championList.updateFilteredlist(filteredChampions);
+        },
+        async loadChampions() {
+            try {
+                const response = await fetch('http://localhost:8000/data/champions');
+                const data = await response.json();
+                this.champions = data;
+            } catch (error) {
+                console.error(error);
+            }
+        },
+        async loadCurrentChampionFromURL() {
+            const id = window.location.pathname.split('/').pop();
+            if (id) {
+                try {
+                    const id_response = await fetch('http://localhost:8000/champion/' + id);
+                    const id_data = await id_response.json();
+                    this.$refs.generateRandomChampion.updateCurrentChampion(id_data);
+                } catch (error) { }
+            }
+        },
+        async generate() {
+            try {
+                const id_response = await fetch('http://localhost:8000/random_champion', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        banlist: []
+                    })
+                });
+                const data = await id_response.json();
+                const id = data.unique_id;
+                this.$router.push('/' + id);
+                this.$refs.generateRandomChampion.updateCurrentChampion(data);
+            } catch (error) {
+                console.error(error);
+            }
+        },
+        selectAll() {
+            this.$refs.championList.updateBanlist({});
+        },
+        unselectAll() {
+            this.$refs.championList.updateBanlist(this.champions);
+        },
+        updateSearchTerm(searchTerm) {
+            this.currentSearchTerm = searchTerm;
+            this.updateBanFilterList();
+        },
+        updateFilters(filters) {
+            this.filters = filters;
+            this.updateBanFilterList();
+        },
+        updateBanFilterList() {
+            console.log(this.filters);
+            const filteredChampions = {};
+            for (const championKey in this.champions) {
+                if (championKey.toLowerCase().includes(this.currentSearchTerm.toLowerCase())) {
+                    filteredChampions[championKey] = this.champions[championKey];
+                }
+            }
 
-}
+            for (const championKey in filteredChampions) {
+                let championMatchesFilters = true;
+                for (const filterKey in this.filters) {
+                    const filterValue = this.filters[filterKey];
+                    const championValue = this.champions[championKey][filterKey];
+                    if (filterValue !== '') {
+                        if (Array.isArray(championValue)) {
+                            if (!championValue.includes(filterValue)) {
+                                championMatchesFilters = false;
+                                break;
+                            }
+                        } else {
+                            if (championValue != filterValue) {
+                                championMatchesFilters = false;
+                                break;
+                            }
+                        }
+                    }
+                }
+                if (!championMatchesFilters) {
+                    delete filteredChampions[championKey];
+                }
+            }
+            console.log(filteredChampions);
+            this.$refs.championList.updateFilteredlist(filteredChampions);
+        }
+
+    },
+    mounted() {
+        this.loadChampions();
+        this.loadCurrentChampionFromURL();
+    }
+  }
+
 </script>
 
 <style>
-img {
-  border-radius: 8px;
+body {
+    overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+}
 
 </style>

@@ -1,4 +1,9 @@
 {
+    "Gender": [
+        "Female",
+        "Male",
+        "Other"
+    ],
     "Class": [
         "Assassin",
         "Fighter",
@@ -7,28 +12,14 @@
         "Support",
         "Tank"
     ],
-    "Region": [
-        "Bandle City",
-        "Bilgewater",
-        "Camavor",
-        "Demacia",
-        "Freljord",
-        "Icathia",
-        "Ionia",
-        "Ixtal",
-        "Noxus",
-        "Piltover",
-        "Runeterra",
-        "Shadow Isles",
-        "Shurima",
-        "Targon",
-        "Void",
-        "Zaun"
-    ],
-    "Gender": [
-        "Female",
-        "Male",
+    "Mana source": [
+        "Mana",
+        "Manaless",
         "Other"
+    ],
+    "Range type": [
+        "Melee",
+        "Ranged"
     ],
     "Species": [
         "Aspect",
@@ -60,24 +51,23 @@
         "Void-Being",
         "Yordle"
     ],
-    "Resources": [
-        "Bloodthirst",
-        "Courage",
-        "Energy",
-        "Ferocity",
-        "Flow",
-        "Fury",
-        "Grit",
-        "Health costs",
-        "Heat",
-        "Mana",
-        "Manaless",
-        "Rage",
-        "Shield"
-    ],
-    "Range type": [
-        "Melee",
-        "Ranged"
+    "Region": [
+        "Bandle City",
+        "Bilgewater",
+        "Camavor",
+        "Demacia",
+        "Freljord",
+        "Icathia",
+        "Ionia",
+        "Ixtal",
+        "Noxus",
+        "Piltover",
+        "Runeterra",
+        "Shadow Isles",
+        "Shurima",
+        "Targon",
+        "Void",
+        "Zaun"
     ],
     "Skinlines": [
         "Academy",

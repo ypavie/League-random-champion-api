@@ -30,3 +30,6 @@ yarn-error.log
 .env.production.local
 .venv
 .vscode
+
+server_run.ps1
+client_run.ps1

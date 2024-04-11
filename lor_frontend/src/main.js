@@ -1,7 +1,20 @@
-import '@picocss/pico/css/pico.min.css'
 import { createApp } from 'vue'
 import App from './App.vue'
+import './assets/tailwind.css'
 import { createRouter, createWebHistory } from 'vue-router'
+import './assets/tailwind.css'
+
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+            console.error('ServiceWorker registration failed: ', err);
+        });
+    });
+}
+
 
 const router = createRouter({
     history: createWebHistory(),
@@ -14,5 +27,4 @@ const router = createRouter({
 const app = createApp(App)
 
 app.use(router)
-
 app.mount('#app')

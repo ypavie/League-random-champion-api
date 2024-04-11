@@ -33,5 +33,7 @@ class Champion(models.Model):
     item_5 = models.CharField(max_length=100, default="")
     item_6 = models.CharField(max_length=100, default="")
 
+    starter_item = models.CharField(max_length=100, default="")
+
     def __str__(self):
         return self.name

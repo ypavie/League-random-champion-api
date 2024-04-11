@@ -1,18 +1,22 @@
 import json
+from pprint import pprint
+    
+with open("items.json", "r") as f:
+    items = json.load(f)
+    
+starter_items = [
+    "dark_seal",
+    "doran's_blade",
+    "doran's_ring",
+    "doran's_shield",
+    "world_atlas",
+    "corrupting_potion",
+    "cull",
+]
 
-with open("skinlines.json", "r") as f:
-    skinlines = json.load(f)
+for key, value in items.items():
+    items[key]["is_starter"] = key in starter_items
 
-with open("possible_values.json", "r") as f:
-    possible_values = json.load(f)
+with open("items2.json", "w") as f:
+    json.dump(items, f, indent=4)
 
-keys = list(skinlines.keys())
-
-possible_values["Skinlines"] = keys
-
-for pv in possible_values:
-    # order asc
-    possible_values[pv].sort()
-
-with open("possible_values.json", "w") as f:
-    json.dump(possible_values, f, indent=4)

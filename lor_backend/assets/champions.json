@@ -4,11 +4,10 @@
         "key": "266",
         "name": "Aatrox",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Aatrox.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AatroxQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AatroxW.png",
@@ -26,22 +25,21 @@
         "species": [
             "Darkin"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Manaless"
     },
     "Ahri": {
         "id": "Ahri",
         "key": "103",
         "name": "Ahri",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ahri.png",
-        "tags": [
+        "class": [
             "Mage",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AhriQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AhriW.png",
@@ -58,21 +56,20 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Akali": {
         "id": "Akali",
         "key": "84",
         "name": "Akali",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Akali.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AkaliQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AkaliW.png",
@@ -90,22 +87,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Energy",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Akshan": {
         "id": "Akshan",
         "key": "166",
         "name": "Akshan",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Akshan.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AkshanQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AkshanW.png",
@@ -122,22 +118,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2021
+        "release year": 2021,
+        "mana source": "Mana"
     },
     "Alistar": {
         "id": "Alistar",
         "key": "12",
         "name": "Alistar",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Alistar.png",
-        "tags": [
+        "class": [
             "Tank",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Pulverize.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Headbutt.png",
@@ -154,22 +149,21 @@
         "species": [
             "Minotaur"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Amumu": {
         "id": "Amumu",
         "key": "32",
         "name": "Amumu",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Amumu.png",
-        "tags": [
+        "class": [
             "Tank",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BandageToss.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AuraofDespair.png",
@@ -187,22 +181,21 @@
             "Undead",
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Anivia": {
         "id": "Anivia",
         "key": "34",
         "name": "Anivia",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Anivia.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FlashFrost.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Crystallize.png",
@@ -220,21 +213,20 @@
             "God",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Annie": {
         "id": "Annie",
         "key": "1",
         "name": "Annie",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Annie.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AnnieQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AnnieW.png",
@@ -253,21 +245,20 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Aphelios": {
         "id": "Aphelios",
         "key": "523",
         "name": "Aphelios",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Aphelios.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ApheliosQ_ClientTooltipWrapper.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ApheliosW.png",
@@ -285,22 +276,21 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2019
+        "release year": 2019,
+        "mana source": "Mana"
     },
     "Ashe": {
         "id": "Ashe",
         "key": "22",
         "name": "Ashe",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ashe.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AsheQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Volley.png",
@@ -319,38 +309,53 @@
             "Human",
             "Iceborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "AurelionSol": {
         "id": "AurelionSol",
         "key": "136",
         "name": "AurelionSol",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/AurelionSol.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AurelionSolQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AurelionSolW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AurelionSolE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AurelionSolR.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Middle"
+        ],
+        "species": [
+            "Celestial",
+            "Dragon"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Runeterra",
+            "Targon"
+        ],
+        "release year": 2016,
+        "mana source": "Mana"
     },
     "Azir": {
         "id": "Azir",
         "key": "268",
         "name": "Azir",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Azir.png",
-        "tags": [
+        "class": [
             "Mage",
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AzirQWrapper.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AzirW.png",
@@ -367,22 +372,21 @@
         "species": [
             "God-Warrior"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2014
+        "release year": 2014,
+        "mana source": "Mana"
     },
     "Bard": {
         "id": "Bard",
         "key": "432",
         "name": "Bard",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Bard.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BardQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BardW.png",
@@ -399,21 +403,20 @@
         "species": [
             "Celestial"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2015
+        "release year": 2015,
+        "mana source": "Mana"
     },
     "Belveth": {
         "id": "Belveth",
         "key": "200",
         "name": "Belveth",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Belveth.png",
-        "tags": [
+        "class": [
             "Fighter"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BelvethQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BelvethW.png",
@@ -427,25 +430,24 @@
         "species": [
             "Void-Being"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2022
+        "release year": 2022,
+        "mana source": "Manaless"
     },
     "Blitzcrank": {
         "id": "Blitzcrank",
         "key": "53",
         "name": "Blitzcrank",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Blitzcrank.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RocketGrab.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Overdrive.png",
@@ -462,21 +464,20 @@
         "species": [
             "Golem"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Brand": {
         "id": "Brand",
         "key": "63",
         "name": "Brand",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Brand.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BrandQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BrandW.png",
@@ -496,22 +497,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Braum": {
         "id": "Braum",
         "key": "201",
         "name": "Braum",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Braum.png",
-        "tags": [
+        "class": [
             "Support",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BraumQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BraumW.png",
@@ -529,21 +529,20 @@
             "Human",
             "Iceborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2014
+        "release year": 2014,
+        "mana source": "Mana"
     },
     "Caitlyn": {
         "id": "Caitlyn",
         "key": "51",
         "name": "Caitlyn",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Caitlyn.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CaitlynQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CaitlynW.png",
@@ -560,22 +559,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Camille": {
         "id": "Camille",
         "key": "164",
         "name": "Camille",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Camille.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CamilleQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CamilleW.png",
@@ -593,21 +591,20 @@
             "Cyborg",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2016
+        "release year": 2016,
+        "mana source": "Mana"
     },
     "Cassiopeia": {
         "id": "Cassiopeia",
         "key": "69",
         "name": "Cassiopeia",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Cassiopeia.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CassiopeiaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CassiopeiaW.png",
@@ -626,22 +623,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Chogath": {
         "id": "Chogath",
         "key": "31",
         "name": "Chogath",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Chogath.png",
-        "tags": [
+        "class": [
             "Tank",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Rupture.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FeralScream.png",
@@ -655,24 +651,23 @@
         "species": [
             "Void-Being"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Corki": {
         "id": "Corki",
         "key": "42",
         "name": "Corki",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Corki.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PhosphorusBomb.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CarpetBomb.png",
@@ -690,22 +685,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Darius": {
         "id": "Darius",
         "key": "122",
         "name": "Darius",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Darius.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DariusCleave.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DariusNoxianTacticsONH.png",
@@ -722,22 +716,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Diana": {
         "id": "Diana",
         "key": "131",
         "name": "Diana",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Diana.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DianaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DianaOrbs.png",
@@ -756,21 +749,20 @@
             "Aspect",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Draven": {
         "id": "Draven",
         "key": "119",
         "name": "Draven",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Draven.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DravenSpinning.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DravenFury.png",
@@ -787,22 +779,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "DrMundo": {
         "id": "DrMundo",
         "key": "36",
         "name": "DrMundo",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/DrMundo.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DrMundoQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DrMundoW.png",
@@ -817,25 +808,24 @@
             "Chemically Altered",
             "Human"
         ],
-        "resources": "Health costs",
         "range type": [
             "Melee"
         ],
         "region": [
             "Zaun"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Manaless"
     },
     "Ekko": {
         "id": "Ekko",
         "key": "245",
         "name": "Ekko",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ekko.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EkkoQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EkkoW.png",
@@ -853,22 +843,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2015
+        "release year": 2015,
+        "mana source": "Mana"
     },
     "Elise": {
         "id": "Elise",
         "key": "60",
         "name": "Elise",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Elise.png",
-        "tags": [
+        "class": [
             "Mage",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EliseHumanQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EliseHumanW.png",
@@ -887,23 +876,22 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee",
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Evelynn": {
         "id": "Evelynn",
         "key": "28",
         "name": "Evelynn",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Evelynn.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EvelynnQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EvelynnW.png",
@@ -921,22 +909,21 @@
             "Demon",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Ezreal": {
         "id": "Ezreal",
         "key": "81",
         "name": "Ezreal",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ezreal.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EzrealQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/EzrealW.png",
@@ -954,22 +941,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Fiddlesticks": {
         "id": "Fiddlesticks",
         "key": "9",
         "name": "Fiddlesticks",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Fiddlesticks.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FiddleSticksQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FiddleSticksW.png",
@@ -987,22 +973,21 @@
             "Demon",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Fiora": {
         "id": "Fiora",
         "key": "114",
         "name": "Fiora",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Fiora.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FioraQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FioraW.png",
@@ -1019,22 +1004,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Fizz": {
         "id": "Fizz",
         "key": "105",
         "name": "Fizz",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Fizz.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FizzQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/FizzW.png",
@@ -1051,22 +1035,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Galio": {
         "id": "Galio",
         "key": "3",
         "name": "Galio",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Galio.png",
-        "tags": [
+        "class": [
             "Tank",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GalioQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GalioW.png",
@@ -1084,21 +1067,20 @@
         "species": [
             "Golem"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Gangplank": {
         "id": "Gangplank",
         "key": "41",
         "name": "Gangplank",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Gangplank.png",
-        "tags": [
+        "class": [
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GangplankQWrapper.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GangplankW.png",
@@ -1115,22 +1097,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Garen": {
         "id": "Garen",
         "key": "86",
         "name": "Garen",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Garen.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GarenQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GarenW.png",
@@ -1147,22 +1128,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Gnar": {
         "id": "Gnar",
         "key": "150",
         "name": "Gnar",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Gnar.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GnarQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GnarW.png",
@@ -1179,23 +1159,22 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Rage",
         "range type": [
             "Melee",
             "Ranged"
         ],
-        "release year": 2014
+        "release year": 2014,
+        "mana source": "Manaless"
     },
     "Gragas": {
         "id": "Gragas",
         "key": "79",
         "name": "Gragas",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Gragas.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GragasQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GragasW.png",
@@ -1213,21 +1192,20 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Graves": {
         "id": "Graves",
         "key": "104",
         "name": "Graves",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Graves.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GravesQLineSpell.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GravesSmokeGrenade.png",
@@ -1244,22 +1222,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Gwen": {
         "id": "Gwen",
         "key": "887",
         "name": "Gwen",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Gwen.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GwenQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/GwenW.png",
@@ -1278,22 +1255,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2021
+        "release year": 2021,
+        "mana source": "Mana"
     },
     "Hecarim": {
         "id": "Hecarim",
         "key": "120",
         "name": "Hecarim",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Hecarim.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/HecarimRapidSlash.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/HecarimW.png",
@@ -1311,22 +1287,21 @@
         "species": [
             "Undead"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Heimerdinger": {
         "id": "Heimerdinger",
         "key": "74",
         "name": "Heimerdinger",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Heimerdinger.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/HeimerdingerQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/HeimerdingerW.png",
@@ -1345,22 +1320,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Illaoi": {
         "id": "Illaoi",
         "key": "420",
         "name": "Illaoi",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Illaoi.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IllaoiQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IllaoiW.png",
@@ -1378,22 +1352,21 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2015
+        "release year": 2015,
+        "mana source": "Mana"
     },
     "Irelia": {
         "id": "Irelia",
         "key": "39",
         "name": "Irelia",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Irelia.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IreliaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IreliaW.png",
@@ -1412,22 +1385,21 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Ivern": {
         "id": "Ivern",
         "key": "427",
         "name": "Ivern",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ivern.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IvernQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/IvernW.png",
@@ -1446,22 +1418,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2016
+        "release year": 2016,
+        "mana source": "Mana"
     },
     "Janna": {
         "id": "Janna",
         "key": "40",
         "name": "Janna",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Janna.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/HowlingGale.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SowTheWind.png",
@@ -1480,39 +1451,52 @@
             "God",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "JarvanIV": {
         "id": "JarvanIV",
         "key": "59",
         "name": "JarvanIV",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/JarvanIV.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JarvanIVDragonStrike.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JarvanIVGoldenAegis.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JarvanIVDemacianStandard.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JarvanIVCataclysm.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Demacia"
+        ],
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Jax": {
         "id": "Jax",
         "key": "24",
         "name": "Jax",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Jax.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JaxQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JaxW.png",
@@ -1531,22 +1515,21 @@
         "species": [
             "Unknown"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Jayce": {
         "id": "Jayce",
         "key": "126",
         "name": "Jayce",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Jayce.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JayceToTheSkies.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JayceStaticField.png",
@@ -1564,23 +1547,22 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee",
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Jhin": {
         "id": "Jhin",
         "key": "202",
         "name": "Jhin",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Jhin.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JhinQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JhinW.png",
@@ -1598,21 +1580,20 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2016
+        "release year": 2016,
+        "mana source": "Mana"
     },
     "Jinx": {
         "id": "Jinx",
         "key": "222",
         "name": "Jinx",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Jinx.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JinxQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JinxW.png",
@@ -1630,21 +1611,20 @@
             "Chemically Altered",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Mana"
     },
     "Kaisa": {
         "id": "Kaisa",
         "key": "145",
         "name": "Kaisa",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kaisa.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KaisaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KaisaW.png",
@@ -1659,7 +1639,6 @@
             "Human",
             "Void-Being"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
@@ -1667,17 +1646,17 @@
             "Shurima",
             "Void"
         ],
-        "release year": 2018
+        "release year": 2018,
+        "mana source": "Mana"
     },
     "Kalista": {
         "id": "Kalista",
         "key": "429",
         "name": "Kalista",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kalista.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KalistaMysticShot.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KalistaW.png",
@@ -1695,22 +1674,21 @@
         "species": [
             "Undead"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2014
+        "release year": 2014,
+        "mana source": "Mana"
     },
     "Karma": {
         "id": "Karma",
         "key": "43",
         "name": "Karma",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Karma.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KarmaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KarmaSpiritBind.png",
@@ -1728,21 +1706,20 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Karthus": {
         "id": "Karthus",
         "key": "30",
         "name": "Karthus",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Karthus.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KarthusLayWasteA1.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KarthusWallOfPain.png",
@@ -1760,22 +1737,21 @@
         "species": [
             "Undead"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Kassadin": {
         "id": "Kassadin",
         "key": "38",
         "name": "Kassadin",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kassadin.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NullLance.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NetherBlade.png",
@@ -1794,22 +1770,21 @@
             "Human",
             "Void-Being"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Katarina": {
         "id": "Katarina",
         "key": "55",
         "name": "Katarina",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Katarina.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Mage"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KatarinaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KatarinaW.png",
@@ -1826,22 +1801,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Manaless"
     },
     "Kayle": {
         "id": "Kayle",
         "key": "10",
         "name": "Kayle",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kayle.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KayleQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KayleW.png",
@@ -1861,23 +1835,22 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee",
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Kayn": {
         "id": "Kayn",
         "key": "141",
         "name": "Kayn",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kayn.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KaynQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KaynW.png",
@@ -1899,22 +1872,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2017
+        "release year": 2017,
+        "mana source": "Mana"
     },
     "Kennen": {
         "id": "Kennen",
         "key": "85",
         "name": "Kennen",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kennen.png",
-        "tags": [
+        "class": [
             "Mage",
             "Marksman"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KennenShurikenHurlMissile1.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KennenBringTheLight.png",
@@ -1928,24 +1900,23 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Energy",
         "range type": [
             "Ranged"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Khazix": {
         "id": "Khazix",
         "key": "121",
         "name": "Khazix",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Khazix.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KhazixQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KhazixW.png",
@@ -1959,24 +1930,23 @@
         "species": [
             "Void-Being"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Kindred": {
         "id": "Kindred",
         "key": "203",
         "name": "Kindred",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kindred.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KindredQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KindredW.png",
@@ -1994,22 +1964,21 @@
             "God",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2015
+        "release year": 2015,
+        "mana source": "Mana"
     },
     "Kled": {
         "id": "Kled",
         "key": "240",
         "name": "Kled",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Kled.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KledQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KledW.png",
@@ -2026,56 +1995,83 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Courage",
         "range type": [
             "Melee"
         ],
-        "release year": 2016
+        "release year": 2016,
+        "mana source": "Manaless"
     },
     "KogMaw": {
         "id": "KogMaw",
         "key": "96",
         "name": "KogMaw",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/KogMaw.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KogMawQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KogMawBioArcaneBarrage.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KogMawVoidOoze.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KogMawLivingArtillery.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Bottom"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "KSante": {
         "id": "KSante",
         "key": "897",
         "name": "KSante",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/KSante.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KSanteQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KSanteW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KSanteE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/KSanteR.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Top"
+        ],
+        "species": [
+            "Human"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Shurima"
+        ],
+        "release year": 2022,
+        "mana source": "Mana"
     },
     "Leblanc": {
         "id": "Leblanc",
         "key": "7",
         "name": "Leblanc",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Leblanc.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LeblancQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LeblancW.png",
@@ -2093,39 +2089,53 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "LeeSin": {
         "id": "LeeSin",
         "key": "64",
         "name": "LeeSin",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/LeeSin.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BlindMonkQOne.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BlindMonkWOne.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BlindMonkEOne.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BlindMonkRKick.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Ionia"
+        ],
+        "release year": 2011,
+        "mana source": "Manaless"
     },
     "Leona": {
         "id": "Leona",
         "key": "89",
         "name": "Leona",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Leona.png",
-        "tags": [
+        "class": [
             "Tank",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LeonaShieldOfDaybreak.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LeonaSolarBarrier.png",
@@ -2143,22 +2153,21 @@
             "Aspect",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Lillia": {
         "id": "Lillia",
         "key": "876",
         "name": "Lillia",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Lillia.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LilliaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LilliaW.png",
@@ -2175,21 +2184,20 @@
         "species": [
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Mana"
     },
     "Lissandra": {
         "id": "Lissandra",
         "key": "127",
         "name": "Lissandra",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Lissandra.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LissandraQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LissandraW.png",
@@ -2207,21 +2215,20 @@
             "Human",
             "Iceborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Mana"
     },
     "Lucian": {
         "id": "Lucian",
         "key": "236",
         "name": "Lucian",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Lucian.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LucianQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LucianW.png",
@@ -2239,22 +2246,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Mana"
     },
     "Lulu": {
         "id": "Lulu",
         "key": "117",
         "name": "Lulu",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Lulu.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LuluQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LuluW.png",
@@ -2271,22 +2277,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Lux": {
         "id": "Lux",
         "key": "99",
         "name": "Lux",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Lux.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LuxLightBinding.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/LuxPrismaticWave.png",
@@ -2305,22 +2310,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Malphite": {
         "id": "Malphite",
         "key": "54",
         "name": "Malphite",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Malphite.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SeismicShard.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Obduracy.png",
@@ -2338,22 +2342,21 @@
         "species": [
             "Golem"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Malzahar": {
         "id": "Malzahar",
         "key": "90",
         "name": "Malzahar",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Malzahar.png",
-        "tags": [
+        "class": [
             "Mage",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MalzaharQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MalzaharW.png",
@@ -2372,22 +2375,21 @@
             "Human",
             "Void-Being"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Maokai": {
         "id": "Maokai",
         "key": "57",
         "name": "Maokai",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Maokai.png",
-        "tags": [
+        "class": [
             "Tank",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MaokaiQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MaokaiW.png",
@@ -2405,38 +2407,52 @@
         "species": [
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "MasterYi": {
         "id": "MasterYi",
         "key": "11",
         "name": "MasterYi",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/MasterYi.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/AlphaStrike.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Meditate.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/WujuStyle.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Highlander.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human",
+            "Spiritualist"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Ionia"
+        ],
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Milio": {
         "id": "Milio",
         "key": "902",
         "name": "Milio",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Milio.png",
-        "tags": [
+        "class": [
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MilioQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MilioW.png",
@@ -2454,38 +2470,51 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2023
+        "release year": 2023,
+        "mana source": "Mana"
     },
     "MissFortune": {
         "id": "MissFortune",
         "key": "21",
         "name": "MissFortune",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/MissFortune.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MissFortuneRicochetShot.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MissFortuneViciousStrikes.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MissFortuneScattershot.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MissFortuneBulletTime.png"
-        ]
+        ],
+        "gender": "Female",
+        "positions": [
+            "Bottom"
+        ],
+        "species": [
+            "Human"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Bilgewater"
+        ],
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Wukong": {
         "id": "Wukong",
         "key": "62",
         "name": "Wukong",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/MonkeyKing.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MonkeyKingDoubleAttack.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MonkeyKingDecoy.png",
@@ -2500,24 +2529,23 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Mordekaiser": {
         "id": "Mordekaiser",
         "key": "82",
         "name": "Mordekaiser",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Mordekaiser.png",
-        "tags": [
+        "class": [
             "Fighter"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MordekaiserQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MordekaiserW.png",
@@ -2535,22 +2563,21 @@
         "species": [
             "Revenant"
         ],
-        "resources": "Shield",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Morgana": {
         "id": "Morgana",
         "key": "25",
         "name": "Morgana",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Morgana.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MorganaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MorganaW.png",
@@ -2570,21 +2597,20 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Naafiri": {
         "id": "Naafiri",
         "key": "950",
         "name": "Naafiri",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Naafiri.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NaafiriQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NaafiriW.png",
@@ -2599,25 +2625,24 @@
             "Darkin",
             "Dog"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
         "region": [
             "Shurima"
         ],
-        "release year": 2023
+        "release year": 2023,
+        "mana source": "Mana"
     },
     "Nami": {
         "id": "Nami",
         "key": "267",
         "name": "Nami",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nami.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NamiQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NamiW.png",
@@ -2635,22 +2660,21 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Nasus": {
         "id": "Nasus",
         "key": "75",
         "name": "Nasus",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nasus.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NasusQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NasusW.png",
@@ -2667,22 +2691,21 @@
         "species": [
             "God-Warrior"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Nautilus": {
         "id": "Nautilus",
         "key": "111",
         "name": "Nautilus",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nautilus.png",
-        "tags": [
+        "class": [
             "Tank",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NautilusAnchorDrag.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NautilusPiercingGaze.png",
@@ -2699,22 +2722,21 @@
         "species": [
             "Revenant"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Neeko": {
         "id": "Neeko",
         "key": "518",
         "name": "Neeko",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Neeko.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NeekoQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NeekoW.png",
@@ -2732,22 +2754,21 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2018
+        "release year": 2018,
+        "mana source": "Mana"
     },
     "Nidalee": {
         "id": "Nidalee",
         "key": "76",
         "name": "Nidalee",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nidalee.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JavelinToss.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Bushwhack.png",
@@ -2765,23 +2786,22 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee",
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Nilah": {
         "id": "Nilah",
         "key": "895",
         "name": "Nilah",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nilah.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NilahQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NilahW.png",
@@ -2799,22 +2819,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2022
+        "release year": 2022,
+        "mana source": "Mana"
     },
     "Nocturne": {
         "id": "Nocturne",
         "key": "56",
         "name": "Nocturne",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nocturne.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NocturneDuskbringer.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NocturneShroudofDarkness.png",
@@ -2832,22 +2851,21 @@
             "Demon",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Nunu": {
         "id": "Nunu",
         "key": "20",
         "name": "Nunu",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Nunu.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NunuQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/NunuW.png",
@@ -2862,25 +2880,24 @@
             "Human",
             "Yeti"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
         "region": [
             "Freljord"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Olaf": {
         "id": "Olaf",
         "key": "2",
         "name": "Olaf",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Olaf.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OlafAxeThrowCast.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OlafFrenziedStrikes.png",
@@ -2898,22 +2915,21 @@
             "Human",
             "Iceborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Orianna": {
         "id": "Orianna",
         "key": "61",
         "name": "Orianna",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Orianna.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OrianaIzunaCommand.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OrianaDissonanceCommand.png",
@@ -2930,22 +2946,21 @@
         "species": [
             "Golem"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Ornn": {
         "id": "Ornn",
         "key": "516",
         "name": "Ornn",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ornn.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OrnnQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/OrnnW.png",
@@ -2963,22 +2978,21 @@
             "God",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2017
+        "release year": 2017,
+        "mana source": "Mana"
     },
     "Pantheon": {
         "id": "Pantheon",
         "key": "80",
         "name": "Pantheon",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Pantheon.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PantheonQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PantheonW.png",
@@ -2998,22 +3012,21 @@
             "Aspect",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Poppy": {
         "id": "Poppy",
         "key": "78",
         "name": "Poppy",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Poppy.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PoppyQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PoppyW.png",
@@ -3031,22 +3044,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Pyke": {
         "id": "Pyke",
         "key": "555",
         "name": "Pyke",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Pyke.png",
-        "tags": [
+        "class": [
             "Support",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PykeQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PykeW.png",
@@ -3063,22 +3075,21 @@
         "species": [
             "Revenant"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2018
+        "release year": 2018,
+        "mana source": "Mana"
     },
     "Qiyana": {
         "id": "Qiyana",
         "key": "246",
         "name": "Qiyana",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Qiyana.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/QiyanaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/QiyanaW.png",
@@ -3096,22 +3107,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2019
+        "release year": 2019,
+        "mana source": "Mana"
     },
     "Quinn": {
         "id": "Quinn",
         "key": "133",
         "name": "Quinn",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Quinn.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/QuinnQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/QuinnW.png",
@@ -3128,21 +3138,20 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Mana"
     },
     "Rakan": {
         "id": "Rakan",
         "key": "497",
         "name": "Rakan",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Rakan.png",
-        "tags": [
+        "class": [
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RakanQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RakanW.png",
@@ -3159,22 +3168,21 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2017
+        "release year": 2017,
+        "mana source": "Mana"
     },
     "Rammus": {
         "id": "Rammus",
         "key": "33",
         "name": "Rammus",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Rammus.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PowerBall.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/DefensiveBallCurl.png",
@@ -3191,38 +3199,52 @@
         "species": [
             "Unknown"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "RekSai": {
         "id": "RekSai",
         "key": "421",
         "name": "RekSai",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/RekSai.png",
-        "tags": [
+        "class": [
             "Fighter"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RekSaiQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RekSaiW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RekSaiE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RekSaiRWrapper.png"
-        ]
+        ],
+        "gender": "Female",
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Shurima",
+            "Void"
+        ],
+        "release year": 2014,
+        "mana source": "Manaless"
     },
     "Rell": {
         "id": "Rell",
         "key": "526",
         "name": "Rell",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Rell.png",
-        "tags": [
+        "class": [
             "Tank",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RellQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RellW_Dismount.png",
@@ -3241,22 +3263,21 @@
             "Magically Altered",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Mana"
     },
     "Renata": {
         "id": "Renata",
         "key": "888",
         "name": "Renata",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Renata.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RenataQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RenataW.png",
@@ -3271,25 +3292,24 @@
             "Chemically Altered",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
         "region": [
             "Zaun"
         ],
-        "release year": 2022
+        "release year": 2022,
+        "mana source": "Mana"
     },
     "Renekton": {
         "id": "Renekton",
         "key": "58",
         "name": "Renekton",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Renekton.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RenektonCleave.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RenektonPreExecute.png",
@@ -3306,22 +3326,21 @@
         "species": [
             "God-Warrior"
         ],
-        "resources": "Fury",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Manaless"
     },
     "Rengar": {
         "id": "Rengar",
         "key": "107",
         "name": "Rengar",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Rengar.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RengarQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RengarW.png",
@@ -3339,22 +3358,21 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Ferocity",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Manaless"
     },
     "Riven": {
         "id": "Riven",
         "key": "92",
         "name": "Riven",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Riven.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RivenTriCleave.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RivenMartyr.png",
@@ -3372,22 +3390,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Manaless"
     },
     "Rumble": {
         "id": "Rumble",
         "key": "68",
         "name": "Rumble",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Rumble.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Mage"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RumbleFlameThrower.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RumbleShield.png",
@@ -3404,22 +3421,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Heat",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Manaless"
     },
     "Ryze": {
         "id": "Ryze",
         "key": "13",
         "name": "Ryze",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ryze.png",
-        "tags": [
+        "class": [
             "Mage",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RyzeQWrapper.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/RyzeW.png",
@@ -3437,21 +3453,20 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Samira": {
         "id": "Samira",
         "key": "360",
         "name": "Samira",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Samira.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SamiraQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SamiraW.png",
@@ -3469,22 +3484,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Mana"
     },
     "Sejuani": {
         "id": "Sejuani",
         "key": "113",
         "name": "Sejuani",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sejuani.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SejuaniQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SejuaniW.png",
@@ -3502,22 +3516,21 @@
             "Human",
             "Iceborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Senna": {
         "id": "Senna",
         "key": "235",
         "name": "Senna",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Senna.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SennaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SennaW.png",
@@ -3535,22 +3548,21 @@
             "Human",
             "Undead"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2019
+        "release year": 2019,
+        "mana source": "Mana"
     },
     "Seraphine": {
         "id": "Seraphine",
         "key": "147",
         "name": "Seraphine",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Seraphine.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SeraphineQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SeraphineW.png",
@@ -3569,22 +3581,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Mana"
     },
     "Sett": {
         "id": "Sett",
         "key": "875",
         "name": "Sett",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sett.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SettQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SettW.png",
@@ -3602,21 +3613,20 @@
             "Human",
             "Vastayan"
         ],
-        "resources": "Grit",
         "range type": [
             "Melee"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Manaless"
     },
     "Shaco": {
         "id": "Shaco",
         "key": "35",
         "name": "Shaco",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Shaco.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Deceive.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/JackInTheBox.png",
@@ -3634,21 +3644,20 @@
         "species": [
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Shen": {
         "id": "Shen",
         "key": "98",
         "name": "Shen",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Shen.png",
-        "tags": [
+        "class": [
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ShenQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ShenW.png",
@@ -3666,22 +3675,21 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Energy",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Shyvana": {
         "id": "Shyvana",
         "key": "102",
         "name": "Shyvana",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Shyvana.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ShyvanaDoubleAttack.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ShyvanaImmolationAura.png",
@@ -3699,22 +3707,21 @@
             "Dragon",
             "Magically Altered"
         ],
-        "resources": "Fury",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Manaless"
     },
     "Singed": {
         "id": "Singed",
         "key": "27",
         "name": "Singed",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Singed.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PoisonTrail.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MegaAdhesive.png",
@@ -3733,22 +3740,21 @@
             "Chemically Altered",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Sion": {
         "id": "Sion",
         "key": "14",
         "name": "Sion",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sion.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SionQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SionW.png",
@@ -3765,21 +3771,20 @@
         "species": [
             "Revenant"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Sivir": {
         "id": "Sivir",
         "key": "15",
         "name": "Sivir",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sivir.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SivirQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SivirW.png",
@@ -3796,22 +3801,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Skarner": {
         "id": "Skarner",
         "key": "72",
         "name": "Skarner",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Skarner.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SkarnerVirulentSlash.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SkarnerExoskeleton.png",
@@ -3828,22 +3832,21 @@
         "species": [
             "Brackern"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Sona": {
         "id": "Sona",
         "key": "37",
         "name": "Sona",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sona.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SonaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SonaW.png",
@@ -3862,22 +3865,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Soraka": {
         "id": "Soraka",
         "key": "16",
         "name": "Soraka",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Soraka.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SorakaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SorakaW.png",
@@ -3895,22 +3897,21 @@
         "species": [
             "Celestial"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Swain": {
         "id": "Swain",
         "key": "50",
         "name": "Swain",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Swain.png",
-        "tags": [
+        "class": [
             "Mage",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SwainQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SwainW.png",
@@ -3928,22 +3929,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Sylas": {
         "id": "Sylas",
         "key": "517",
         "name": "Sylas",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Sylas.png",
-        "tags": [
+        "class": [
             "Mage",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SylasQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SylasW.png",
@@ -3962,21 +3962,20 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2019
+        "release year": 2019,
+        "mana source": "Mana"
     },
     "Syndra": {
         "id": "Syndra",
         "key": "134",
         "name": "Syndra",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Syndra.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SyndraQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/SyndraW.png",
@@ -3994,39 +3993,55 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "TahmKench": {
         "id": "TahmKench",
         "key": "223",
         "name": "TahmKench",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/TahmKench.png",
-        "tags": [
+        "class": [
             "Support",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TahmKenchQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TahmKenchW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TahmKenchE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TahmKenchRWrapper.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Support",
+            "Top"
+        ],
+        "species": [
+            "Demon",
+            "Spirit"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Bilgewater",
+            "Runeterra"
+        ],
+        "release year": 2015,
+        "mana source": "Mana"
     },
     "Taliyah": {
         "id": "Taliyah",
         "key": "163",
         "name": "Taliyah",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Taliyah.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TaliyahQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TaliyahWVC.png",
@@ -4045,21 +4060,20 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2016
+        "release year": 2016,
+        "mana source": "Mana"
     },
     "Talon": {
         "id": "Talon",
         "key": "91",
         "name": "Talon",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Talon.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TalonQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TalonW.png",
@@ -4077,22 +4091,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Taric": {
         "id": "Taric",
         "key": "44",
         "name": "Taric",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Taric.png",
-        "tags": [
+        "class": [
             "Support",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TaricQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TaricW.png",
@@ -4111,22 +4124,21 @@
             "Aspect",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Teemo": {
         "id": "Teemo",
         "key": "17",
         "name": "Teemo",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Teemo.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/BlindingDart.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/MoveQuick.png",
@@ -4143,22 +4155,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Thresh": {
         "id": "Thresh",
         "key": "412",
         "name": "Thresh",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Thresh.png",
-        "tags": [
+        "class": [
             "Support",
             "Fighter"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ThreshQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ThreshW.png",
@@ -4175,22 +4186,21 @@
         "species": [
             "Undead"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Mana"
     },
     "Tristana": {
         "id": "Tristana",
         "key": "18",
         "name": "Tristana",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Tristana.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TristanaQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TristanaW.png",
@@ -4208,22 +4218,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Trundle": {
         "id": "Trundle",
         "key": "48",
         "name": "Trundle",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Trundle.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TrundleTrollSmash.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/trundledesecrate.png",
@@ -4242,22 +4251,21 @@
             "Iceborn",
             "Troll"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Tryndamere": {
         "id": "Tryndamere",
         "key": "23",
         "name": "Tryndamere",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Tryndamere.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TryndamereQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TryndamereW.png",
@@ -4275,38 +4283,52 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Fury",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Manaless"
     },
     "TwistedFate": {
         "id": "TwistedFate",
         "key": "4",
         "name": "TwistedFate",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/TwistedFate.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/WildCards.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/PickACard.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/CardmasterStack.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/Destiny.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Middle"
+        ],
+        "species": [
+            "Human",
+            "Magicborn"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Bilgewater"
+        ],
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Twitch": {
         "id": "Twitch",
         "key": "29",
         "name": "Twitch",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Twitch.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TwitchHideInShadows.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/TwitchVenomCask.png",
@@ -4324,22 +4346,21 @@
             "Chemically Altered",
             "Rat"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Udyr": {
         "id": "Udyr",
         "key": "77",
         "name": "Udyr",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Udyr.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/UdyrQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/UdyrW.png",
@@ -4359,22 +4380,21 @@
             "Human",
             "Spiritualist"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Urgot": {
         "id": "Urgot",
         "key": "6",
         "name": "Urgot",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Urgot.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/UrgotQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/UrgotW.png",
@@ -4394,22 +4414,21 @@
             "Cyborg",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Varus": {
         "id": "Varus",
         "key": "110",
         "name": "Varus",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Varus.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VarusQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VarusW.png",
@@ -4429,22 +4448,21 @@
             "Darkin",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Vayne": {
         "id": "Vayne",
         "key": "67",
         "name": "Vayne",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Vayne.png",
-        "tags": [
+        "class": [
             "Marksman",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VayneTumble.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VayneSilveredBolts.png",
@@ -4461,21 +4479,20 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Veigar": {
         "id": "Veigar",
         "key": "45",
         "name": "Veigar",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Veigar.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VeigarBalefulStrike.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VeigarDarkMatter.png",
@@ -4494,37 +4511,51 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Velkoz": {
         "id": "Velkoz",
         "key": "161",
         "name": "Velkoz",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Velkoz.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VelkozQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VelkozW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VelkozE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VelkozR.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Middle",
+            "Support"
+        ],
+        "species": [
+            "Void-Being"
+        ],
+        "range type": [
+            "Ranged"
+        ],
+        "region": [
+            "Void"
+        ],
+        "release year": 2014,
+        "mana source": "Mana"
     },
     "Vex": {
         "id": "Vex",
         "key": "711",
         "name": "Vex",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Vex.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VexQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VexW.png",
@@ -4542,22 +4573,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2021
+        "release year": 2021,
+        "mana source": "Mana"
     },
     "Vi": {
         "id": "Vi",
         "key": "254",
         "name": "Vi",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Vi.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViW.png",
@@ -4575,22 +4605,21 @@
         "species": [
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Viego": {
         "id": "Viego",
         "key": "234",
         "name": "Viego",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Viego.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViegoQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViegoW.png",
@@ -4608,21 +4637,20 @@
         "species": [
             "Undead"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2021
+        "release year": 2021,
+        "mana source": "Manaless"
     },
     "Viktor": {
         "id": "Viktor",
         "key": "112",
         "name": "Viktor",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Viktor.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViktorPowerTransfer.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ViktorGravitonField.png",
@@ -4641,21 +4669,20 @@
             "Cyborg",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Vladimir": {
         "id": "Vladimir",
         "key": "8",
         "name": "Vladimir",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Vladimir.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VladimirQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VladimirSanguinePool.png",
@@ -4675,22 +4702,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Bloodthirst",
         "range type": [
             "Ranged"
         ],
-        "release year": 2010
+        "release year": 2010,
+        "mana source": "Manaless"
     },
     "Volibear": {
         "id": "Volibear",
         "key": "106",
         "name": "Volibear",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Volibear.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VolibearQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/VolibearW.png",
@@ -4709,22 +4735,21 @@
             "God",
             "Spirit"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Warwick": {
         "id": "Warwick",
         "key": "19",
         "name": "Warwick",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Warwick.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/WarwickQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/WarwickW.png",
@@ -4744,21 +4769,20 @@
             "Cyborg",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Xayah": {
         "id": "Xayah",
         "key": "498",
         "name": "Xayah",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Xayah.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XayahQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XayahW.png",
@@ -4775,21 +4799,20 @@
         "species": [
             "Vastayan"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2017
+        "release year": 2017,
+        "mana source": "Mana"
     },
     "Xerath": {
         "id": "Xerath",
         "key": "101",
         "name": "Xerath",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Xerath.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XerathArcanopulseChargeUp.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XerathArcaneBarrage2.png",
@@ -4807,39 +4830,54 @@
         "species": [
             "God-Warrior"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "XinZhao": {
         "id": "XinZhao",
         "key": "5",
         "name": "XinZhao",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/XinZhao.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XinZhaoQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XinZhaoW.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XinZhaoE.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/XinZhaoR.png"
-        ]
+        ],
+        "gender": "Male",
+        "positions": [
+            "Jungle"
+        ],
+        "species": [
+            "Human"
+        ],
+        "range type": [
+            "Melee"
+        ],
+        "region": [
+            "Demacia",
+            "Ionia",
+            "Noxus"
+        ],
+        "release year": 2010,
+        "mana source": "Mana"
     },
     "Yasuo": {
         "id": "Yasuo",
         "key": "157",
         "name": "Yasuo",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Yasuo.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Assassin"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YasuoQ1Wrapper.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YasuoW.png",
@@ -4857,22 +4895,21 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Flow",
         "range type": [
             "Melee"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Manaless"
     },
     "Yone": {
         "id": "Yone",
         "key": "777",
         "name": "Yone",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Yone.png",
-        "tags": [
+        "class": [
             "Assassin",
             "Fighter"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YoneQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YoneW.png",
@@ -4891,22 +4928,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Manaless",
         "range type": [
             "Melee"
         ],
-        "release year": 2020
+        "release year": 2020,
+        "mana source": "Manaless"
     },
     "Yorick": {
         "id": "Yorick",
         "key": "83",
         "name": "Yorick",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Yorick.png",
-        "tags": [
+        "class": [
             "Fighter",
             "Tank"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YorickQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YorickW.png",
@@ -4924,22 +4960,21 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Melee"
         ],
-        "release year": 2011
+        "release year": 2011,
+        "mana source": "Mana"
     },
     "Yuumi": {
         "id": "Yuumi",
         "key": "350",
         "name": "Yuumi",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Yuumi.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YuumiQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/YuumiW.png",
@@ -4957,22 +4992,21 @@
             "Cat",
             "Magically Altered"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2019
+        "release year": 2019,
+        "mana source": "Mana"
     },
     "Zac": {
         "id": "Zac",
         "key": "154",
         "name": "Zac",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zac.png",
-        "tags": [
+        "class": [
             "Tank",
             "Fighter"
         ],
-        "partype": "None",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZacQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZacW.png",
@@ -4990,21 +5024,20 @@
         "species": [
             "Golem"
         ],
-        "resources": "Health costs",
         "range type": [
             "Melee"
         ],
-        "release year": 2013
+        "release year": 2013,
+        "mana source": "Manaless"
     },
     "Zed": {
         "id": "Zed",
         "key": "238",
         "name": "Zed",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zed.png",
-        "tags": [
+        "class": [
             "Assassin"
         ],
-        "partype": "Other",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZedQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZedW.png",
@@ -5022,21 +5055,20 @@
             "Human",
             "Magically Altered"
         ],
-        "resources": "Energy",
         "range type": [
             "Melee"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Manaless"
     },
     "Zeri": {
         "id": "Zeri",
         "key": "221",
         "name": "Zeri",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zeri.png",
-        "tags": [
+        "class": [
             "Marksman"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZeriQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZeriW.png",
@@ -5054,21 +5086,20 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2022
+        "release year": 2022,
+        "mana source": "Mana"
     },
     "Ziggs": {
         "id": "Ziggs",
         "key": "115",
         "name": "Ziggs",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Ziggs.png",
-        "tags": [
+        "class": [
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZiggsQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZiggsW.png",
@@ -5086,22 +5117,21 @@
         "species": [
             "Yordle"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     },
     "Zilean": {
         "id": "Zilean",
         "key": "26",
         "name": "Zilean",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zilean.png",
-        "tags": [
+        "class": [
             "Support",
             "Mage"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZileanQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZileanW.png",
@@ -5116,7 +5146,6 @@
             "Human",
             "Magicborn"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
@@ -5124,18 +5153,18 @@
             "Runeterra",
             "Shurima"
         ],
-        "release year": 2009
+        "release year": 2009,
+        "mana source": "Mana"
     },
     "Zoe": {
         "id": "Zoe",
         "key": "142",
         "name": "Zoe",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zoe.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZoeQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZoeW.png",
@@ -5153,22 +5182,21 @@
             "Aspect",
             "Human"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2017
+        "release year": 2017,
+        "mana source": "Mana"
     },
     "Zyra": {
         "id": "Zyra",
         "key": "143",
         "name": "Zyra",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/Zyra.png",
-        "tags": [
+        "class": [
             "Mage",
             "Support"
         ],
-        "partype": "Mana",
         "spells": [
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZyraQ.png",
             "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/spell/ZyraW.png",
@@ -5185,10 +5213,10 @@
         "species": [
             "Unknown"
         ],
-        "resources": "Mana",
         "range type": [
             "Ranged"
         ],
-        "release year": 2012
+        "release year": 2012,
+        "mana source": "Mana"
     }
 }
