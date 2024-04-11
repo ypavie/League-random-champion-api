@@ -41,7 +41,7 @@ export default {
             showFilters: false,
             year: 2009,
             filters: {},
-            champions: [],
+            champions: {},
             filteredChampions: {},
             bannedChampions: [],
             currentSearchTerm: '',
@@ -79,7 +79,11 @@ export default {
             }
         },
         async generate() {
-            const allowedChampionList = this.getAllowedChampionlist();
+            const allowedChampionList = this.getAllowedChampionlist();  
+            if (allowedChampionList.length === Object.keys(this.champions).length) { 
+                alert('No champions to choose from');
+                return;
+            }
             try {
                 const id_response = await fetch('http://localhost:8000/random_champion', {
                     method: 'POST',
@@ -95,13 +99,14 @@ export default {
                 this.$router.push('/' + id);
                 this.$refs.generateRandomChampion.updateCurrentChampion(data);
             } catch (error) {
-                console.error(error);
             }
         },
         selectAll() {
+            this.bannedChampions = Object.keys(this.champions);
             this.$refs.championList.updateBanlist({});
         },
         unselectAll() {
+            this.bannedChampions = [];
             this.$refs.championList.updateBanlist(this.champions);
         },
         updateSearchTerm(searchTerm) {
