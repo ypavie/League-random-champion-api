@@ -84,7 +84,7 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
     while len(item_names) < 6:
         item = random.choice(legendary_items)
 
-        if item in item_names:
+        if item in item_names or item in boots_names or item in support_items:
             continue
 
         for group in passives_to_exclude:
@@ -110,7 +110,6 @@ def get_random_champion(champion_data: Dict[str, Dict[str, str]], allowedChampio
 
 
 def get_random_spell_to_max() -> int:
-    # TODO: Handle Marlito's case with AD, AS and lethality in frontend
     return np.random.randint(0, 3)
 
 
