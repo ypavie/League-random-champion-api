@@ -105,11 +105,11 @@ input[type='text'] {
 
 .champion-icon img:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .champion-icon img:active {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .champion-icon img:hover:not(.selected) {
@@ -117,7 +117,7 @@ input[type='text'] {
 }
 
 .selected {
-  filter: grayscale(100%) brightness(30%);
+  filter: grayscale(100%) brightness(90%);
 }
 
 .filter-btn {

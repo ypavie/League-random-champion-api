@@ -1,6 +1,6 @@
 <template>
     <AppHeader />
-    <div class="grid grid-cols-1 md:grid-cols-10 gap-4 mx-auto md:h-[93.5vh] bg-white py-10 px-4 sm:px-6 lg:px-8 dark:bg-gray-800">
+    <div class="grid grid-cols-1 md:grid-cols-10 gap-4 mx-auto md:h-[95vh] bg-white py-10 px-4 sm:px-6 lg:px-8 dark:bg-gray-800">
         <div class="col-span-1 md:col-span-6 p-4 overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg">
             <GenerateRandomChampion ref="generateRandomChampion" 
                 @update-filter="updateFilters"

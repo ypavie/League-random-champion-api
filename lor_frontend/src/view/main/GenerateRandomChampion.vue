@@ -5,84 +5,54 @@
     <!-- ICONS-->
     <div class="flex flex-wrap justify-center w-full sm:w-auto">
       
-        <div class="flex flex-wrap justify-center mb-4">
-          <div class="text-center">
-            <img :src="currentChampion.icon" :alt=currentChampion.name class="w-16 h-16 md:w-24 md:h-24 mr-4 border-2 border-black rounded-lg">
+      <div class="flex flex-wrap justify-center mb-4">
+        <div class="text-center">
+          <img :src="currentChampion.icon" :alt=currentChampion.name class="w-16 h-16 md:w-24 md:h-24 mr-4 border-2 border-black rounded-lg">
+        </div>
+      </div>
+      
+      <div class="flex flex-wrap justify-center items-center mb-4 mx-4">
+        <div class="text-center">
+          <h2 class="text-2xl font-bold uppercase text-center dark:text-white"> {{ currentChampion.name.replace(/([A-Z])/g, ' $1').trim() }}</h2>
           </div>
         </div>
-        
-        <div class="flex flex-wrap justify-center items-center mb-4 mx-4">
-          <div class="text-center">
-            <h2 class="text-2xl font-bold uppercase text-center dark:text-white"> {{ currentChampion.name.replace(/([A-Z])/g, ' $1').trim() }}</h2>
-            </div>
-          </div>
-        
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <div class="text-center">
-            <img :src="currentChampion.summoner_spell_1[1]" alt="Summoners spell 1" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.summoner_spell_2[1]" alt="Summoners spell 2" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
-          </div>
+      
+      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
+        <div class="text-center">
+          <img :src="currentChampion.summoner_spell_1[1]" alt="Summoners spell 1" class="w-16 h-16 item-icon border-2 border-black rounded-lg">
         </div>
-        
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4 relative">
-          <div class="text-center">
-            <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-12 h-12 border-2 border-black rounded-lg">
-          </div>
+        <div class="text-center">
+          <img :src="currentChampion.summoner_spell_2[1]" alt="Summoners spell 2" class="w-16 h-16 item-icon border-2 border-black rounded-lg">
         </div>
-
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <div class="text-center">
-            <img :src="currentChampion.role[1]" alt="Role" class="w-12 h-12 md:w-20 md:h-20 mr-4">
-              <p class="invisible">a</p>
-          </div>
+      </div>
+      
+      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4 relative">
+        <div class="text-center relative">
+          <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-16 h-16 border-2 border-black rounded-lg">
+          <span class="absolute bottom-0 left-1 bg-gray-800 bg-opacity-50 text-white text-xl font-bold px-1 py-0.5">{{ currentChampion.spell_to_max[0] }}</span>
         </div>
+      </div>
 
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <div class="text-center">
-              <p class="invisible">a</p>
-          </div>
+      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
+        <div class="text-center">
+          <img :src="currentChampion.role[1]" alt="Role" class="w-16 h-16 md:w-20 md:h-20 mr-4">
         </div>
+      </div>
 
-
-        <div class="flex justify-center items-center mb-4 mx-4">
-          <div class="text-center">
-            <img :src="currentChampion.item_1[1]" alt="Items 1" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-            <p class="invisible">a</p>
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.item_2[1]" alt="Items 2" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-            <p class="invisible">a</p>
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.item_3[1]" alt="Items 3" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-            <p class="invisible">a</p>
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.item_4[1]" alt="Items 4" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-            <p class="invisible">a</p>
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.item_5[1]" alt="Items 5" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-            <p class="invisible">a</p>
-          </div>
-          <div class="text-center">
-            <img :src="currentChampion.item_6[1]" alt="Items 6" class="w-12 h-12 border-2 border-black rounded-lg">
-            <p class="invisible">a</p>
-          </div>
+      <div class="flex flex-wrap justify-center items-center mb-4 mx-4 mt-4">
+        <img :src="currentChampion.item_1[1]" alt="Items 1" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
+        <img :src="currentChampion.item_2[1]" alt="Items 2" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
+        <img :src="currentChampion.item_3[1]" alt="Items 3" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
+        <img :src="currentChampion.item_4[1]" alt="Items 4" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
+        <img :src="currentChampion.item_5[1]" alt="Items 5" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
+        <img :src="currentChampion.item_6[1]" alt="Items 6" class="w-16 h-16 border-2 border-black rounded-lg mr-2">
+        <div class="text-center relative">
+          <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-16 h-16 border-2 border-black rounded-lg ml-12">
+        <span class="absolute bottom-0 right-0 bg-gray-800 bg-opacity-50 text-white text-base font-bold px-1 py-0.5">Starter</span>
         </div>
-
-
-        <div class="flex justify-center items-center mb-4 mx-4">
-    <div class="text-center">
-        <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-12 h-12 border-2 border-black rounded-lg mx-auto">
-        <p class="flex-none font-semibold dark:text-white">
-            {{ parseName(currentChampion.starter_item[0]) }}
-        </p>
-    </div>
-</div>
-
+      </div>
+      <div class="flex justify-center items-center mb-4 mx-4">
+      </div>
     </div>
 
     <!-- RUNES -->
