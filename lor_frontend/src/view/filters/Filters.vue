@@ -1,6 +1,15 @@
 <template>
   <div class="grid items-center justify-center">
     <div class="flex items-center">
+    <!-- Add 5 small images here -->
+      <div class="flex items-center space-x-1">
+        <img src="" class="h-6 w-6 rounded-full" alt="Image 1">
+        <img src="" class="h-6 w-6 rounded-full" alt="Image 2">
+        <img src="" class="h-6 w-6 rounded-full" alt="Image 3">
+        <img src="" class="h-6 w-6 rounded-full" alt="Image 4">
+        <img src="" class="h-6 w-6 rounded-full" alt="Image 5">
+      </div>
+      <!-- End of small images -->
       <div class="relative">
         <div class="absolute inset-y-0 left-0 flex items-center pl-3">
           <svg class="h-5 w-5 text-gray-400 dark:text-gray-500" fill="currentColor" viewBox="0 0 20 20">
@@ -24,12 +33,12 @@
   <AdvancedFilters ref="advancedFilters" @update-filter="updateFilter" />
 </template>
 
-
 <script>
 import AdvancedFilters from '../filters/AdvancedFilters.vue'
 
 export default {
   name: 'GenerateRandomChampion',
+  emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
   components: {
     AdvancedFilters
   },

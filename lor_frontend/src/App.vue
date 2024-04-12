@@ -8,6 +8,7 @@
                 @select-all="selectAll"
                 @unselect-all="unselectAll"
                 @generate="generate"
+
             /> 
         </div>
         <div class="col-span-1 md:col-span-4 overflow-y-auto">
@@ -30,7 +31,8 @@ import AppHeader from './view/layout/AppHeader.vue'
 import AppFooter from './view/layout/AppFooter.vue'
 
 export default {
-  components: {
+    name: 'App',
+    components: {
     AppHeader,
     AppFooter,
     ChampionList,
@@ -80,7 +82,8 @@ export default {
         },
         async generate() {
             const allowedChampionList = this.getAllowedChampionlist();  
-            if (allowedChampionList.length === Object.keys(this.champions).length) { 
+            console.log(allowedChampionList);
+            if (allowedChampionList.length === 0) { 
                 alert('No champions to choose from');
                 return;
             }
@@ -102,11 +105,11 @@ export default {
             }
         },
         selectAll() {
-            this.bannedChampions = Object.keys(this.champions);
+            this.bannedChampions = []
             this.$refs.championList.updateBanlist({});
         },
         unselectAll() {
-            this.bannedChampions = [];
+            this.bannedChampions = Object.keys(this.champions);
             this.$refs.championList.updateBanlist(this.champions);
         },
         updateSearchTerm(searchTerm) {

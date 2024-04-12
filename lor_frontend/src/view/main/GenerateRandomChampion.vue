@@ -6,34 +6,83 @@
     <div class="flex flex-wrap justify-center w-full sm:w-auto">
       
         <div class="flex flex-wrap justify-center mb-4">
-          <img :src="currentChampion.icon" :alt=currentChampion.name class="w-16 h-16 md:w-24 md:h-24 mr-4 border-2 border-black rounded-lg">
+          <div class="text-center">
+            <img :src="currentChampion.icon" :alt=currentChampion.name class="w-16 h-16 md:w-24 md:h-24 mr-4 border-2 border-black rounded-lg">
+          </div>
         </div>
+        
         <div class="flex flex-wrap justify-center items-center mb-4 mx-4">
-          <h2 class="text-2xl font-bold uppercase text-center dark:text-white"> {{ currentChampion.name.replace(/([A-Z])/g, ' $1').trim() }}</h2>
-        </div>
+          <div class="text-center">
+            <h2 class="text-2xl font-bold uppercase text-center dark:text-white"> {{ currentChampion.name.replace(/([A-Z])/g, ' $1').trim() }}</h2>
+            </div>
+          </div>
+        
         <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <img :src="currentChampion.summoner_spell_1[1]" alt="Summoners spell 1" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
-          <img :src="currentChampion.summoner_spell_2[1]" alt="Summoners spell 2" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
+          <div class="text-center">
+            <img :src="currentChampion.summoner_spell_1[1]" alt="Summoners spell 1" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.summoner_spell_2[1]" alt="Summoners spell 2" class="w-12 h-12 item-icon border-2 border-black rounded-lg">
+          </div>
         </div>
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-12 h-12 border-2 border-black rounded-lg">
-        </div>
-        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <img :src="currentChampion.role[1]" alt="Role" class="w-12 h-12 md:w-20 md:h-20 mr-4">
-        </div>
-        <div class="flex justify-center items-center mb-4 mx-4">
-          <img :src="currentChampion.item_1[1]" alt="Items 1" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-          <img :src="currentChampion.item_2[1]" alt="Items 2" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-          <img :src="currentChampion.item_3[1]" alt="Items 3" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-          <img :src="currentChampion.item_4[1]" alt="Items 4" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-          <img :src="currentChampion.item_5[1]" alt="Items 5" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
-          <img :src="currentChampion.item_6[1]" alt="Items 6" class="w-12 h-12 border-2 border-black rounded-lg">
+        
+        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4 relative">
+          <div class="text-center">
+            <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-12 h-12 border-2 border-black rounded-lg">
+          </div>
         </div>
 
         <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
-          <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-12 h-12 m-1 border-2 border-black rounded-lg">
-          <!-- <p class="text-xs text-gray-500 dark:text-gray-400">Starter</p> -->
+          <div class="text-center">
+            <img :src="currentChampion.role[1]" alt="Role" class="w-12 h-12 md:w-20 md:h-20 mr-4">
+              <p class="invisible">a</p>
+          </div>
         </div>
+
+        <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
+          <div class="text-center">
+              <p class="invisible">a</p>
+          </div>
+        </div>
+
+
+        <div class="flex justify-center items-center mb-4 mx-4">
+          <div class="text-center">
+            <img :src="currentChampion.item_1[1]" alt="Items 1" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
+            <p class="invisible">a</p>
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.item_2[1]" alt="Items 2" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
+            <p class="invisible">a</p>
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.item_3[1]" alt="Items 3" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
+            <p class="invisible">a</p>
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.item_4[1]" alt="Items 4" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
+            <p class="invisible">a</p>
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.item_5[1]" alt="Items 5" class="w-12 h-12 border-2 border-black rounded-lg" style="margin-right: 5px;">
+            <p class="invisible">a</p>
+          </div>
+          <div class="text-center">
+            <img :src="currentChampion.item_6[1]" alt="Items 6" class="w-12 h-12 border-2 border-black rounded-lg">
+            <p class="invisible">a</p>
+          </div>
+        </div>
+
+
+        <div class="flex justify-center items-center mb-4 mx-4">
+    <div class="text-center">
+        <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-12 h-12 border-2 border-black rounded-lg mx-auto">
+        <p class="flex-none font-semibold dark:text-white">
+            {{ parseName(currentChampion.starter_item[0]) }}
+        </p>
+    </div>
+</div>
+
     </div>
 
     <!-- RUNES -->
@@ -88,7 +137,7 @@
         </div>
 
         <div class="runes-secondary">
-          <div :class="'runes-progress ' + currentChampion.rune_main_tree[0].toLowerCase()" :style="getRuneProgress(currentChampion.rune_main_tree[0], false)">
+          <div :class="'runes-progress ' + currentChampion.rune_main_tree[0].toLowerCase()" :style="getRuneProgress(currentChampion.rune_secondary_tree[0], false)">
             <div></div>
           </div>
           <ul class="rune-container">
@@ -186,6 +235,8 @@ import Filters from '../filters/Filters.vue'
 
 export default {
   name: 'GenerateRandomChampion',
+  emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
+  
   components: {
     Filters,
   },
@@ -214,7 +265,20 @@ export default {
       this.$emit('generate');
     },
     getRuneProgress(rune, type) {
-      return type ? { height: '150px' } : { height: '50px' };
+      if (type) {
+        return {
+          height: '150px',
+          background: 'url(#gradient-' + rune.toLowerCase() + ')',
+        }
+      } else {
+        return {
+          height: '50px',
+          background: 'url(#gradient-' + rune.toLowerCase() + ')',
+        }
+      }
+    },
+    parseName(name) {
+      return name.replace(/_/g, ' ').replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
     }
 
   }
@@ -222,6 +286,11 @@ export default {
 </script>
 
 <style scoped>
+
+.text-center:hover p {
+  display: block;
+}
+
 .runes {
   display: flex;
   margin-top: 20px;
