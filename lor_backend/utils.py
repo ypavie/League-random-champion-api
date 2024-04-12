@@ -93,8 +93,16 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
             
         item_names.append(item)
 
-    starter_item = np.random.choice([item for item in item_data.keys() if item_data[item].get("is_starter", False)])
-    item_names.append(starter_item)
+    if lane == "jungle":
+        jungle_items = [
+            "gustwalker_hatchling",
+            "mosstomper_seedling",
+            "scorchclaw_pup",
+        ]
+        item_names.append(np.random.choice(jungle_items))
+    else:
+        starter_item = np.random.choice([item for item in item_data.keys() if item_data[item].get("is_starter", False)])
+        item_names.append(starter_item)
 
     return item_names
 

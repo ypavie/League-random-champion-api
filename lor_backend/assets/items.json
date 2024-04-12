@@ -883,5 +883,20 @@
         "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/6701.png",
         "last_upgrade": false,
         "is_starter": false
+    },
+    "gustwalker_hatchling": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/1102.png",
+        "last_upgrade": false,
+        "is_starter": true
+    },
+    "mosstomper_seedling": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/1103.png",
+        "last_upgrade": false,
+        "is_starter": true
+    },
+    "scorchclaw_pup": {
+        "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/1101.png",
+        "last_upgrade": false,
+        "is_starter": true
     }
 }
