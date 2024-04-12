@@ -77,6 +77,7 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
     
     if lane == "support":
         support_item = np.random.choice(support_items)
+
         item_names.append(support_item)
     
     legendary_items = [item for item in item_data.keys() if item_data[item].get("last_upgrade", False) and item not in support_items]
@@ -100,6 +101,8 @@ def generate_random_items(item_data: Dict[str, Dict[str, bool]], name: str, lane
             "scorchclaw_pup",
         ]
         item_names.append(np.random.choice(jungle_items))
+    elif lane == "support":
+        item_names.append(support_item)
     else:
         starter_item = np.random.choice([item for item in item_data.keys() if item_data[item].get("is_starter", False)])
         item_names.append(starter_item)
