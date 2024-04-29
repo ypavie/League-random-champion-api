@@ -1,20 +1,23 @@
+import json
+from typing import Any, Dict, List
+
 from django.http import HttpResponse
-from .models import Champion
-from .serializers import ChampionSerializer
-from .utils import generate_random_champion, champion_to_url
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-import json
 
-from typing import List, Dict, Any
+from .models import Champion
+from .serializers import ChampionSerializer
+from .utils import champion_to_url, generate_random_champion
+
 
 def index(request):
     return HttpResponse("Hello, world. You're at the lor_backend index.")
 
-@api_view(['GET'])
+
+@api_view(["GET"])
 def get_champion(request: Any, id: int) -> Response:
-    if request.method == 'GET':
+    if request.method == "GET":
         try:
             champion: Champion = Champion.objects.get(pk=id)
             serializer: ChampionSerializer = ChampionSerializer(champion)
@@ -23,7 +26,7 @@ def get_champion(request: Any, id: int) -> Response:
 
         except Champion.DoesNotExist:
             random_champion: Dict[str, Any] = generate_random_champion()
-            random_champion['unique_id'] = id
+            random_champion["unique_id"] = id
             serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
             if serializer.is_valid():
                 serializer.save()
@@ -31,9 +34,10 @@ def get_champion(request: Any, id: int) -> Response:
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET'])
+
+@api_view(["GET"])
 def get_data(request: Any, file: str) -> HttpResponse:
-    if request.method == 'GET':
+    if request.method == "GET":
         try:
             with open(f"lor_backend/assets/{file}.json", "r") as json_file:
                 data = json.load(json_file)
@@ -41,16 +45,17 @@ def get_data(request: Any, file: str) -> HttpResponse:
         except FileNotFoundError:
             return HttpResponse(json.dumps({}), content_type="application/json")
 
-@api_view(['POST'])
+
+@api_view(["POST"])
 def get_random_champion(request: Any) -> Response:
-    if request.method == 'POST':
-        allowedChampionList: List[str] = request.data.get('allowedChampionList', [])
+    if request.method == "POST":
+        allowedChampionList: List[str] = request.data.get("allowedChampionList", [])
 
         random_champion: Dict[str, Any] = generate_random_champion(allowedChampionList)
-        random_champion['unique_id'] = 0
-        
-        while Champion.objects.filter(unique_id=random_champion['unique_id']).exists():
-            random_champion['unique_id'] += 1
+        random_champion["unique_id"] = 0
+
+        while Champion.objects.filter(unique_id=random_champion["unique_id"]).exists():
+            random_champion["unique_id"] += 1
 
         serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
         if serializer.is_valid():
