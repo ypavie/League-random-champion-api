@@ -1,6 +1,6 @@
 import json
 from typing import Any, Dict, List
-
+from pprint import pprint
 from django.http import HttpResponse
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -8,7 +8,9 @@ from rest_framework.response import Response
 
 from .models import Champion
 from .serializers import ChampionSerializer
+
 from .utils import champion_to_url, generate_random_champion
+from .ChampionConfigurationGenerator import ChampionConfigurationGenerator
 
 
 def index(request):
@@ -22,11 +24,24 @@ def get_champion(request: Any, id: int) -> Response:
             champion: Champion = Champion.objects.get(pk=id)
             serializer: ChampionSerializer = ChampionSerializer(champion)
             champion_with_url: Dict[str, Any] = champion_to_url(serializer.data)
+            pprint(champion_with_url)
+            championConfigurationGenerator = ChampionConfigurationGenerator()
+            championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                allowedChampionList=[champion_with_url["name"]]
+            )
+            pprint(championConfiguration)
+        
             return Response(champion_with_url, status=status.HTTP_200_OK)
 
         except Champion.DoesNotExist:
             random_champion: Dict[str, Any] = generate_random_champion()
             random_champion["unique_id"] = id
+            pprint(champion_with_url)
+            championConfigurationGenerator = ChampionConfigurationGenerator()
+            championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                allowedChampionList=[champion_with_url["name"]]
+            )
+            pprint(championConfiguration)
             serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
             if serializer.is_valid():
                 serializer.save()
