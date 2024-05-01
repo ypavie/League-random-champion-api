@@ -113,6 +113,13 @@ class ChampionConfigurationGenerator:
 
         return champion_configuration
 
+    def get_rune_icon(self, slot_index, rune_index):
+        runes = self.rune_data["Shards"]["slots"][slot_index]["runes"]
+        for rune in runes:
+            if rune['key'] == rune_index:
+                return rune['icon']
+        return None
+
     def champion_to_url(self, current_champion: Dict[str, str]) -> Dict[str, Dict[str, str]]:
         champion_configuration: Dict[str, Dict[str, str]] = {
             "name": current_champion["name"],
@@ -167,15 +174,15 @@ class ChampionConfigurationGenerator:
             ],
             "rune_shard_1": [
                 current_champion["rune_shard_1"],
-                self.rune_data["Shards"]["slots"][0]["runes"][0]["icon"]
+                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][0]["runes"] if rune['key'] == current_champion["rune_shard_1"]), None)
             ],
             "rune_shard_2": [
                 current_champion["rune_shard_2"],
-                self.rune_data["Shards"]["slots"][1]["runes"][0]["icon"]
+                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][1]["runes"] if rune['key'] == current_champion["rune_shard_2"]), None)
             ],
             "rune_shard_3": [
                 current_champion["rune_shard_3"],
-                self.rune_data["Shards"]["slots"][2]["runes"][0]["icon"]
+                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][2]["runes"] if rune['key'] == current_champion["rune_shard_3"]), None)
             ],
             "item_1": [
                 current_champion["item_1"],
