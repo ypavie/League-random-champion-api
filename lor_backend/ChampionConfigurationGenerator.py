@@ -2,7 +2,7 @@ import numpy as np
 import random
 import json
 import os
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Union
 from pprint import pprint
 
 class ChampionConfigurationGenerator:
@@ -85,10 +85,10 @@ class ChampionConfigurationGenerator:
         summoner_spells: List[str] = self.get_random_summoner_spells(lane)
         runes: Tuple[str, List[str], str, List[str], List[str]] = self.get_random_runes()
 
-        champion_configuration: Dict[str, str] = {
+        champion_configuration: Dict[str, Union[int, str]] = {
             "name": name,
             "role": lane,
-            "spell_to_max": spell_to_max,
+            "spell_to_max": int(spell_to_max),
             "summoner_spell_1": summoner_spells[0],
             "summoner_spell_2": summoner_spells[1],
             "rune_main_tree": runes[0],
@@ -293,9 +293,11 @@ class ChampionConfigurationGenerator:
         return item_names
 
     def get_random_starting_item(self, lane) -> str:
+        print('generating starting item for lane:', lane)
         if lane == "jungle":
             return np.random.choice(self.JUNGLE_ITEMS)
         elif lane == "support":
+            print('generating support item')
             return "world_atlas"
         else:
             return np.random.choice(
