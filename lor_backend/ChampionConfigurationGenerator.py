@@ -3,6 +3,7 @@ import random
 import json
 import os
 from typing import Dict, List, Tuple
+from pprint import pprint
 
 class ChampionConfigurationGenerator:
 
@@ -64,16 +65,17 @@ class ChampionConfigurationGenerator:
             return {}
         
     def generate_random_champion_configuration_with_url(self,
+        champion_configuration: Dict[str, str] = None,
         allowedChampionList: List[str] = None,
-        lanes_available: List[str] = ["top", "jungle", "mid", "adc", "support"]
+        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"]
     ) -> Dict[str, Dict[str, str]]:
-        champion_configuration = self.generate_random_champion_configuration(allowedChampionList, lanes_available)
-        champion_url = self.champion_to_url(champion_configuration)
-        return champion_url
+        if champion_configuration is None:
+            champion_configuration = self.generate_random_champion_configuration(allowedChampionList, lanes_available)
+        return self.champion_to_url(champion_configuration)
 
     def generate_random_champion_configuration(self,
         allowedChampionList: List[str] = None,
-        lanes_available: List[str] = ["top", "jungle", "mid", "adc", "support"]
+        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"]
     ) -> Dict[str, str]:
         name: str = self.get_random_champion_name(allowedChampionList)
         spell_to_max: int = self.get_random_spell_to_max()
@@ -121,7 +123,7 @@ class ChampionConfigurationGenerator:
             ],
             "spell_to_max": [
                 current_champion["spell_to_max"],
-                self.champion_data[current_champion["name"]]["spells"][current_champion["spell_to_max"]]
+                self.champion_data[current_champion["name"]]["spells"][int(current_champion["spell_to_max"])]
             ],
             "summoner_spell_1": [
                 current_champion["summoner_spell_1"],

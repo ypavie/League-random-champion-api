@@ -21,27 +21,24 @@ def index(request):
 def get_champion(request: Any, id: int) -> Response:
     if request.method == "GET":
         try:
+            print("Getting champion")
             champion: Champion = Champion.objects.get(pk=id)
             serializer: ChampionSerializer = ChampionSerializer(champion)
-            champion_with_url: Dict[str, Any] = champion_to_url(serializer.data)
-            pprint(champion_with_url)
+
             championConfigurationGenerator = ChampionConfigurationGenerator()
             championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                allowedChampionList=[champion_with_url["name"]]
+                champion_configuration=serializer.data,
             )
-            pprint(championConfiguration)
         
-            return Response(champion_with_url, status=status.HTTP_200_OK)
+            return Response(championConfiguration, status=status.HTTP_200_OK)
 
         except Champion.DoesNotExist:
-            random_champion: Dict[str, Any] = generate_random_champion()
-            random_champion["unique_id"] = id
-            pprint(champion_with_url)
+            print("Champion does not exist")
             championConfigurationGenerator = ChampionConfigurationGenerator()
+            random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration()
             championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                allowedChampionList=[champion_with_url["name"]]
+                champion_configuration=random_champion,
             )
-            pprint(championConfiguration)
             serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
             if serializer.is_valid():
                 serializer.save()
@@ -64,6 +61,7 @@ def get_data(request: Any, file: str) -> HttpResponse:
 @api_view(["POST"])
 def get_random_champion(request: Any) -> Response:
     if request.method == "POST":
+        print("Getting random champion")
         allowedChampionList: List[str] = request.data.get("allowedChampionList", [])
 
         random_champion: Dict[str, Any] = generate_random_champion(allowedChampionList)
