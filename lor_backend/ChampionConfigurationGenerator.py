@@ -206,6 +206,10 @@ class ChampionConfigurationGenerator:
                 self.item_data[current_champion["starter_item"]]["icon"]
             ],
         }
+
+        if "unique_id" in current_champion:
+            champion_configuration["unique_id"] = current_champion["unique_id"]
+
         return champion_configuration
 
     def get_random_champion_name(self, allowedChampionList: List[str] = None) -> Dict[str, str]:
