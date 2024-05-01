@@ -81,9 +81,8 @@ export default {
             }
         },
         async generate() {
-            const allowedChampionList = this.getAllowedChampionlist();  
-            console.log(allowedChampionList);
-            if (allowedChampionList.length === 0) { 
+            const allowedChampionList = this.getAllowedChampionlist();
+            if (allowedChampionList.length === 0) {
                 alert('No champions to choose from');
                 return;
             }
@@ -94,10 +93,12 @@ export default {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        allowedChampionList: allowedChampionList
+                        allowedChampionList: allowedChampionList,
+                        roles: [],
                     })
                 });
                 const data = await id_response.json();
+                console.log(data)
                 const id = data.unique_id;
                 this.$router.push('/' + id);
                 this.$refs.generateRandomChampion.updateCurrentChampion(data);
@@ -127,12 +128,14 @@ export default {
         },
         getFilterList() {
             const filteredChampions = {};
+            // Filter by search term
             for (const championKey in this.champions) {
                 if (championKey.toLowerCase().includes(this.currentSearchTerm.toLowerCase())) {
                     filteredChampions[championKey] = this.champions[championKey];
                 }
             }
 
+            // Filter by filters
             for (const championKey in filteredChampions) {
                 let championMatchesFilters = true;
                 for (const filterKey in this.filters) {

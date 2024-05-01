@@ -29,7 +29,7 @@
       <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4 relative">
         <div class="text-center relative">
           <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-16 h-16 border-2 border-black rounded-lg">
-          <span class="absolute bottom-0 left-1 bg-gray-800 bg-opacity-50 text-white text-xl font-bold px-1 py-0.5">{{ currentChampion.spell_to_max[0] }}</span>
+          <span class="absolute bottom-0 left-1 bg-gray-800 bg-opacity-50 text-white text-xl font-bold px-1 py-0.5">{{ convertSpellToMax(currentChampion.spell_to_max[0]) }}</span>
         </div>
       </div>
 
@@ -249,8 +249,19 @@ export default {
     },
     parseName(name) {
       return name.replace(/_/g, ' ').replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
-    }
-
+    },
+    convertSpellToMax(spell) {
+        switch (spell) {
+            case 0:
+                return 'Q';
+            case 1:
+                return 'W';
+            case 2:
+                return 'E';
+            default:
+                return 'Q';
+        }
+    },
   }
 }
 </script>

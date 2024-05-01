@@ -3,20 +3,21 @@
     <div class="flex flex-wrap items-center">
       <!-- LANES -->
       <div class="flex items-center space-x-4 justify-center">
-        <img
-          v-for="(image, index) in images"
-          :key="index"
-          :src="image.src"
-          :class="[
-            'custom-icon',
-            'cursor-pointer',
-            'h-12 w-12 rounded-full',
-            { 'filter grayscale': selected.indexOf(index) === -1, 'transform scale-110': selected.indexOf(index) !== -1 }
-          ]"
-          @click="toggleSelected(index)"
-          alt="Role Image"
-        >
-      </div>
+    <img
+      v-for="(role, index) in roles"
+      :key="index"
+      :src="role.icon"
+      :class="[
+        'custom-icon',
+        'cursor-pointer',
+        'h-12 w-12 rounded-full',
+        'transform scale-110',
+        { 'filter grayscale': !role.isSelected}
+      ]"
+      @click="toggleSelected(index)"
+      alt="Role Image"
+    >
+  </div>
 
       <!-- CHAMPION NAME -->
       <div class="flex items-center space-x-4 mr-8 ml-8">
@@ -44,19 +45,15 @@ import AdvancedFilters from '../filters/AdvancedFilters.vue'
 export default {
   name: 'GenerateRandomChampion',
   emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
-  components: {
-    AdvancedFilters
-  },
   data() {
     return {
-      selected: [0, 1, 2, 3, 4],
-      images: [
-        { src: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/top.png' },
-        { src: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/jungle.png' },
-        { src: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/middle.png' },
-        { src: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/bottom.png' },
-        { src: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/support.png' }
-      ],
+      roles: [
+        { name: 'Top', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/top.png', isSelected: true },
+        { name: 'Jungle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/jungle.png', isSelected: true },
+        { name: 'Middle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/middle.png', isSelected: true },
+        { name: 'Bottom', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/bottom.png', isSelected: true },
+        { name: 'Support', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/support.png', isSelected: true }
+      ]
     }
   },
   methods: {
@@ -76,13 +73,8 @@ export default {
       this.$emit('update-filter', filter);
     },
     toggleSelected(index) {
-      const selectedIndex = this.selected.indexOf(index);
-      if (selectedIndex === -1) {
-        this.selected.push(index);
-      } else {
-        this.selected.splice(selectedIndex, 1);
+      this.roles[index].isSelected = !this.roles[index].isSelected;
     }
-  }
   }
 }
 </script>
