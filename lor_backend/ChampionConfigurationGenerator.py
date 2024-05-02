@@ -236,6 +236,8 @@ class ChampionConfigurationGenerator:
         return np.random.choice([0, 1, 2])
 
     def get_random_lane(self, lanes_available: List[str]) -> str:
+        # lowercase the lane names and return
+        lanes_available = [lane.lower() for lane in lanes_available]
         return np.random.choice(lanes_available)
 
     def get_random_summoner_spells(self,lane: str) -> List[str]:

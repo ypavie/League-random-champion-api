@@ -94,7 +94,7 @@ export default {
                     },
                     body: JSON.stringify({
                         allowedChampionList: allowedChampionList,
-                        roles: [],
+                        lanes: this.getSelectedLanes(),
                     })
                 });
                 const data = await id_response.json();
@@ -165,6 +165,9 @@ export default {
             const banlist = Object.keys(filteredChampions).filter(champion => this.bannedChampions.includes(champion));
             const allowedChampionlist = Object.keys(filteredChampions).filter(champion => !banlist.includes(champion));
             return allowedChampionlist;
+        },
+        getSelectedLanes() {
+            return this.$refs.generateRandomChampion.getSelectedLanes();
         }
 
     },

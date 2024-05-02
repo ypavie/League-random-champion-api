@@ -2506,10 +2506,10 @@
         "release year": 2010,
         "mana source": "Mana"
     },
-    "Wukong": {
-        "id": "Wukong",
+    "MonkeyKing": {
+        "id": "MonkeyKing",
         "key": "62",
-        "name": "Wukong",
+        "name": "MonkeyKing",
         "icon": "https://ddragon.leagueoflegends.com/cdn/13.17.1/img/champion/MonkeyKing.png",
         "class": [
             "Fighter",

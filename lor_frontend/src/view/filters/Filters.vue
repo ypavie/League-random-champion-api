@@ -1,7 +1,7 @@
 <template>
     <div class="grid items-center justify-center">
         <div class="flex flex-wrap items-center">
-        <!-- LANES -->
+            <!-- LANES ICON-->
             <div class="flex items-center space-x-4 justify-center">
                 <img
                 v-for="(role, index) in roles"
@@ -14,18 +14,19 @@
                 'transform scale-110',
                 { 'filter grayscale': !role.isSelected}
                 ]"
-                @click="toggleSelected(index)"
+                @click="toggleSelectedLane(index)"
                 alt="Role Image"
                 >
             </div>
-
-            <!-- CHAMPION NAME -->
+            <!-- SEARCH -->
             <div class="flex items-center space-x-4 mr-8 ml-8">
                 <input type="text" class="border border-gray-300 dark:border-gray-700 rounded-md pl-6 pr-4 py-2 w-full sm:w-48 focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white" placeholder="Champion name..." @input="emitInput">
             </div>
+            <!-- SELECT ALL -->
             <button @click="selectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
                 Select All
             </button>
+            <!-- UNSELECT ALL -->
             <button @click="unselectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
                 Unselect All
             </button>
@@ -43,46 +44,48 @@
 import AdvancedFilters from '../filters/AdvancedFilters.vue'
 
 export default {
-  name: 'GenerateRandomChampion',
+    name: 'GenerateRandomChampion',
     emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
     components: {
         AdvancedFilters
     },
-  data() {
-    return {
-      roles: [
-        { name: 'Top', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/top.png', isSelected: true },
-        { name: 'Jungle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/jungle.png', isSelected: true },
-        { name: 'Middle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/middle.png', isSelected: true },
-        { name: 'Bottom', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/bottom.png', isSelected: true },
-        { name: 'Support', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/support.png', isSelected: true }
-      ]
+    data() {
+        return {
+            roles: [
+                { name: 'Top', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/top.png', isSelected: true },
+                { name: 'Jungle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/jungle.png', isSelected: true },
+                { name: 'Middle', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/middle.png', isSelected: true },
+                { name: 'Bottom', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/bottom.png', isSelected: true },
+                { name: 'Support', icon: 'https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/support.png', isSelected: true }
+            ]
+        }
+    },
+    methods: {
+        emitInput(event) {
+            this.$emit('input-change', event.target.value);
+        },
+        selectAll() {
+            this.$emit('select-all');
+        },
+        unselectAll() {
+            this.$emit('unselect-all');
+        },
+        generate(filters) {
+            this.$emit('generate', filters);
+        },
+        updateFilter(filter) {
+            this.$emit('update-filter', filter);
+        },
+        toggleSelectedLane(index) {
+            this.roles[index].isSelected = !this.roles[index].isSelected;
+        },
+        getSelectedFiltersTypes() {
+            return this.$refs.advancedFilters.getSelectedFiltersTypes();
+        },
+        getSelectedLanes() {
+            return this.roles.filter(role => role.isSelected).map(role => role.name);
+        }
     }
-  },
-  methods: {
-    emitInput(event) {
-      this.$emit('input-change', event.target.value);
-    },
-    selectAll() {
-      this.$emit('select-all');
-    },
-    unselectAll() {
-      this.$emit('unselect-all');
-    },
-    generate(filters) {
-      this.$emit('generate', filters);
-    },
-    updateFilter(filter) {
-      this.$emit('update-filter', filter);
-    },
-    toggleSelected(index) {
-      this.roles[index].isSelected = !this.roles[index].isSelected;
-    },
-      getSelectedFiltersTypes() {
-          // return getSelectedFiltersTypes from AdvancedFilters component
-        return this.$refs.advancedFilters.getSelectedFiltersTypes();
-    }
-  }
 }
 </script>
 

@@ -275,6 +275,9 @@ export default {
         },
         isFilterTypeSelected(type) {
             return this.selectedFiltersTypes[type];
+        },
+        getSelectedLanes() {
+            return this.$refs.Filters.getSelectedLanes();
         }
     }
 }

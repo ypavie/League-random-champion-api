@@ -70,11 +70,17 @@ def get_data(request: Any, file: str) -> HttpResponse:
 @api_view(["POST"])
 def get_random_champion(request: Any) -> Response:
     if request.method == "POST":
-        print("Getting random champion")
         allowedChampionList: List[str] = request.data.get("allowedChampionList", [])
+        lanes: List[str] = request.data.get("lanes", []) 
+
+        pprint(allowedChampionList)
+        pprint(lanes)
 
         championConfigurationGenerator = ChampionConfigurationGenerator()
-        random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration()
+        random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration(
+            allowedChampionList=allowedChampionList,
+            lanes_available=lanes,
+        )
         random_champion["unique_id"] = 1
         while Champion.objects.filter(unique_id=random_champion["unique_id"]).exists():
             random_champion["unique_id"] += 1
