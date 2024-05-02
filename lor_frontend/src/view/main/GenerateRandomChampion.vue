@@ -5,19 +5,22 @@
     <!-- ICONS-->
     <div class="flex flex-wrap justify-center w-full sm:w-auto">
       
+        <!-- CHAMPION ICON -->
       <div class="flex flex-wrap justify-center mb-4">
         <div class="text-center">
           <img :src="currentChampion.icon" :alt=currentChampion.name class="w-16 h-16 md:w-24 md:h-24 mr-4 border-2 border-black rounded-lg">
         </div>
       </div>
       
+        <!-- CHAMPION NAME -->
       <div class="flex flex-wrap justify-center items-center mb-4 mx-4">
         <div class="text-center">
           <h2 class="text-2xl font-bold uppercase text-center dark:text-white"> {{ currentChampion.name.replace(/([A-Z])/g, ' $1').trim() }}</h2>
           </div>
         </div>
       
-      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
+    <!-- SUMMONER SPELLS -->
+    <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4" :class="{ 'disabled-img': !isFilterTypeSelected('summs') }">
         <div class="text-center">
           <img :src="currentChampion.summoner_spell_1[1]" alt="Summoners spell 1" class="w-16 h-16 item-icon border-2 border-black rounded-lg">
         </div>
@@ -26,6 +29,7 @@
         </div>
       </div>
       
+        <!-- SPELL TO MAX -->
       <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4 relative">
         <div class="text-center relative">
           <img :src="currentChampion.spell_to_max[1]" alt="Spell to max" class="w-16 h-16 border-2 border-black rounded-lg">
@@ -33,13 +37,15 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4">
+        <!-- ROLE -->
+      <div class="flex flex-wrap justify-center items-center space-x-4 mb-4 mx-4" :class="{ 'disabled-img': !isFilterTypeSelected('roles') }">
         <div class="text-center">
           <img :src="currentChampion.role[1]" alt="Role" class="w-16 h-16 md:w-20 md:h-20 mr-4">
         </div>
       </div>
 
-      <div class="flex flex-wrap justify-center items-center mb-4 mx-4 mt-4">
+        <!-- ITEMS -->
+      <div class="flex flex-wrap justify-center items-center mb-4 mx-4 mt-4" :class="{ 'disabled-img': !isFilterTypeSelected('items') }">
         <img :src="currentChampion.item_1[1]" alt="Items 1" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
         <img :src="currentChampion.item_2[1]" alt="Items 2" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
         <img :src="currentChampion.item_3[1]" alt="Items 3" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
@@ -47,16 +53,14 @@
         <img :src="currentChampion.item_5[1]" alt="Items 5" class="w-16 h-16 border-2 border-black rounded-lg mr-1">
         <img :src="currentChampion.item_6[1]" alt="Items 6" class="w-16 h-16 border-2 border-black rounded-lg mr-2">
         <div class="text-center relative">
-          <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-16 h-16 border-2 border-black rounded-lg ml-12">
-        <span class="absolute bottom-0 right-0 bg-gray-800 bg-opacity-50 text-white text-base font-bold px-1 py-0.5">Starter</span>
+            <img :src="currentChampion.starter_item[1]" alt="Starter item" class="w-16 h-16 border-2 border-black rounded-lg ml-12">
+            <span class="absolute bottom-0 right-0 bg-gray-800 bg-opacity-50 text-white text-base font-bold px-1 py-0.5">Starter</span>
         </div>
-      </div>
-      <div class="flex justify-center items-center mb-4 mx-4">
       </div>
     </div>
 
     <!-- RUNES -->
-    <div class="flex flex-wrap justify-center w-full sm:w-auto">
+    <div class="flex flex-wrap justify-center w-full sm:w-auto" :class="{ 'disabled-img': !isFilterTypeSelected('runes') }">
       <div class="runes">
         <div class="runes-primary">
           <div :class="'runes-progress ' + currentChampion.rune_main_tree[0].toLowerCase()" :style="getRuneProgress(currentChampion.rune_main_tree[0], true)">
@@ -197,72 +201,82 @@
   </div>
   <!-- FILTERS -->
   <div class="mt-8">
-    <Filters @update-filter="updateFilter" @input-change="inputChange" @select-all="selectAll" @unselect-all="unselectAll" @generate="generate" />
+    <Filters @update-filter="updateFilter" @input-change="inputChange" @select-all="selectAll" @unselect-all="unselectAll" @generate="generate" ref="Filters" />
   </div>
 </template>
 <script>
 import Filters from '../filters/Filters.vue'
 
 export default {
-  name: 'GenerateRandomChampion',
-  emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
-  
-  components: {
-    Filters,
-  },
-  data() {
-    return {
-      currentChampion: {}
+    name: 'GenerateRandomChampion',
+    emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
+
+    components: {
+        Filters,
+    },
+    data() {
+        return {
+            currentChampion: {},
+            selectedFiltersTypes: {
+                champion: true,
+                roles: true,
+                runes: true,
+                items: true,
+            }
+        }
+    },
+    methods: {
+        updateCurrentChampion(champion) {
+            this.currentChampion = champion;
+            this.selectedFiltersTypes = this.$refs.Filters.getSelectedFiltersTypes();
+        },
+        updateFilter(filters) {
+            this.$emit('update-filter', filters);
+        },
+        inputChange(searchTerm) {
+            this.$emit('input-change', searchTerm);
+        },
+        selectAll() {
+            this.$emit('select-all');
+        },
+        unselectAll() {
+            this.$emit('unselect-all');
+        },
+        generate() {
+            this.$emit('generate');
+        },
+        getRuneProgress(rune, type) {
+            if (type) {
+                return {
+                    height: '150px',
+                    background: 'url(#gradient-' + rune.toLowerCase() + ')',
+                }
+            } else {
+                return {
+                    height: '50px',
+                    background: 'url(#gradient-' + rune.toLowerCase() + ')',
+                }
+            }
+        },
+        parseName(name) {
+            return name.replace(/_/g, ' ').replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+        },
+        convertSpellToMax(spell) {
+            switch (spell) {
+                case 0:
+            return 'Q';
+                case 1:
+            return 'W';
+                case 2:
+            return 'E';
+                default:
+            return 'Q';
+            }
+        },
+        isFilterTypeSelected(type) {
+            return this.selectedFiltersTypes[type];
+        }
     }
-  },
-  methods: {
-    updateCurrentChampion(champion) {
-      this.currentChampion = champion;
-    },
-    updateFilter(filters) {
-      this.$emit('update-filter', filters);
-    },
-    inputChange(searchTerm) {
-      this.$emit('input-change', searchTerm);
-    },
-    selectAll() {
-      this.$emit('select-all');
-    },
-    unselectAll() {
-      this.$emit('unselect-all');
-    },
-    generate() {
-      this.$emit('generate');
-    },
-    getRuneProgress(rune, type) {
-      if (type) {
-        return {
-          height: '150px',
-          background: 'url(#gradient-' + rune.toLowerCase() + ')',
-        }
-      } else {
-        return {
-          height: '50px',
-          background: 'url(#gradient-' + rune.toLowerCase() + ')',
-        }
-      }
-    },
-    parseName(name) {
-      return name.replace(/_/g, ' ').replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
-    },
-    convertSpellToMax(spell) {
-        switch (spell) {
-            case 0:
-                return 'Q';
-            case 1:
-                return 'W';
-            case 2:
-                return 'E';
-            default:
-                return 'Q';
-        }
-    },
-  }
 }
 </script>
 
@@ -372,6 +386,8 @@ export default {
   background-color: url(#gradient-resolve);
 }
 
-
+.disabled-img {
+  filter: grayscale(100%) brightness(5%);
+}
 
 </style>

@@ -33,12 +33,12 @@ import AppFooter from './view/layout/AppFooter.vue'
 export default {
     name: 'App',
     components: {
-    AppHeader,
-    AppFooter,
-    ChampionList,
-    GenerateRandomChampion,
-  },
-  data() {
+        AppHeader,
+        AppFooter,
+        ChampionList,
+        GenerateRandomChampion,
+    },
+    data() {
         return {
             showFilters: false,
             year: 2009,
@@ -98,7 +98,6 @@ export default {
                     })
                 });
                 const data = await id_response.json();
-                console.log(data)
                 const id = data.unique_id;
                 this.$router.push('/' + id);
                 this.$refs.generateRandomChampion.updateCurrentChampion(data);

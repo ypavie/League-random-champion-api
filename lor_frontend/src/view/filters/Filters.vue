@@ -1,42 +1,42 @@
 <template>
-  <div class="grid items-center justify-center">
-    <div class="flex flex-wrap items-center">
-      <!-- LANES -->
-      <div class="flex items-center space-x-4 justify-center">
-    <img
-      v-for="(role, index) in roles"
-      :key="index"
-      :src="role.icon"
-      :class="[
-        'custom-icon',
-        'cursor-pointer',
-        'h-12 w-12 rounded-full',
-        'transform scale-110',
-        { 'filter grayscale': !role.isSelected}
-      ]"
-      @click="toggleSelected(index)"
-      alt="Role Image"
-    >
-  </div>
+    <div class="grid items-center justify-center">
+        <div class="flex flex-wrap items-center">
+        <!-- LANES -->
+            <div class="flex items-center space-x-4 justify-center">
+                <img
+                v-for="(role, index) in roles"
+                :key="index"
+                :src="role.icon"
+                :class="[
+                'custom-icon',
+                'cursor-pointer',
+                'h-12 w-12 rounded-full',
+                'transform scale-110',
+                { 'filter grayscale': !role.isSelected}
+                ]"
+                @click="toggleSelected(index)"
+                alt="Role Image"
+                >
+            </div>
 
-      <!-- CHAMPION NAME -->
-      <div class="flex items-center space-x-4 mr-8 ml-8">
-        <input type="text" class="border border-gray-300 dark:border-gray-700 rounded-md pl-6 pr-4 py-2 w-full sm:w-48 focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white" placeholder="Champion name..." @input="emitInput">
-      </div>
-      <button @click="selectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
-        Select All
-      </button>
-      <button @click="unselectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
-        Unselect All
-      </button>
+            <!-- CHAMPION NAME -->
+            <div class="flex items-center space-x-4 mr-8 ml-8">
+                <input type="text" class="border border-gray-300 dark:border-gray-700 rounded-md pl-6 pr-4 py-2 w-full sm:w-48 focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white" placeholder="Champion name..." @input="emitInput">
+            </div>
+            <button @click="selectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
+                Select All
+            </button>
+            <button @click="unselectAll" class="custom-button ml-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-700 dark:text-white font-bold py-2 px-4 rounded">
+                Unselect All
+            </button>
+        </div>
+        <div class="flex items-center justify-center">
+            <button @click="generate" class="mt-4 bg-blue-500 dark:bg-blue-700 hover:bg-blue-600 dark:hover:bg-blue-800 text-white font-bold py-2 px-2 rounded w-32">
+                GENERATE
+            </button>
+        </div>
     </div>
-    <div class="flex items-center justify-center">
-      <button @click="generate" class="mt-4 bg-blue-500 dark:bg-blue-700 hover:bg-blue-600 dark:hover:bg-blue-800 text-white font-bold py-2 px-2 rounded w-32">
-        GENERATE
-      </button>
-    </div>
-  </div>
-  <AdvancedFilters ref="advancedFilters" @update-filter="updateFilter" />
+    <AdvancedFilters ref="advancedFilters" @update-filter="updateFilter" />
 </template>
 
 <script>
@@ -44,7 +44,10 @@ import AdvancedFilters from '../filters/AdvancedFilters.vue'
 
 export default {
   name: 'GenerateRandomChampion',
-  emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
+    emits: ['update-filter', 'input-change', 'select-all', 'unselect-all', 'generate'],
+    components: {
+        AdvancedFilters
+    },
   data() {
     return {
       roles: [
@@ -74,6 +77,10 @@ export default {
     },
     toggleSelected(index) {
       this.roles[index].isSelected = !this.roles[index].isSelected;
+    },
+      getSelectedFiltersTypes() {
+          // return getSelectedFiltersTypes from AdvancedFilters component
+        return this.$refs.advancedFilters.getSelectedFiltersTypes();
     }
   }
 }
