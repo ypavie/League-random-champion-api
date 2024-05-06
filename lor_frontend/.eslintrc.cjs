@@ -6,6 +6,7 @@ module.exports = {
   'extends': [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
+<<<<<<< HEAD
     "plugin:vue/recommended",
   ],
   "rules": {
@@ -40,5 +41,11 @@ module.exports = {
     "sourceType": "module",
     "allowImportExportEverywhere": true,
     "ecmaVersion": 'latest'
+=======
+    '@vue/eslint-config-prettier/skip-formatting'
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest'
+>>>>>>> main
   }
 }

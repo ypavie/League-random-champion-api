@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/tailwind.css'
@@ -15,6 +16,12 @@ if ('serviceWorker' in navigator) {
     });
 }
 
+=======
+import '@picocss/pico/css/pico.min.css'
+import { createApp } from 'vue'
+import App from './App.vue'
+import { createRouter, createWebHistory } from 'vue-router'
+>>>>>>> main
 
 const router = createRouter({
     history: createWebHistory(),
@@ -24,7 +31,13 @@ const router = createRouter({
     ]
 })
 
+<<<<<<< HEAD
 const app = createApp(App)
 
 app.use(router)
 app.mount('#app')
+=======
+createApp(App)
+    .use(router) // Use the router
+    .mount('#app')
+>>>>>>> main

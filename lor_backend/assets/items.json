@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "faerie_charm": {
         "icon": "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/1004.png",
         "last_upgrade": false,
@@ -899,4 +900,906 @@
         "last_upgrade": false,
         "is_starter": true
     }
+=======
+  "faerie_charm": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1004.png",
+    "last_upgrade": false
+  },
+  "rejuvenation_bead": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1006.png",
+    "last_upgrade": false
+  },
+  "giant's_belt": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1011.png",
+    "last_upgrade": false
+  },
+  "cloak_of_agility": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1018.png",
+    "last_upgrade": false
+  },
+  "blasting_wand": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1026.png",
+    "last_upgrade": false
+  },
+  "sapphire_crystal": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1027.png",
+    "last_upgrade": false
+  },
+  "ruby_crystal": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1028.png",
+    "last_upgrade": false
+  },
+  "cloth_armor": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/1029.png",
+    "last_upgrade": false
+  },
+  "chain_vest": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1031.png",
+    "last_upgrade": false
+  },
+  "null-magic_mantle": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1033.png",
+    "last_upgrade": false
+  },
+  "long_sword": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1036.png",
+    "last_upgrade": false
+  },
+  "pickaxe": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1037.png",
+    "last_upgrade": false
+  },
+  "b._f._sword": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1038.png",
+    "last_upgrade": false
+  },
+  "dagger": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1042.png",
+    "last_upgrade": false
+  },
+  "recurve_bow": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1043.png",
+    "last_upgrade": false
+  },
+  "amplifying_tome": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1052.png",
+    "last_upgrade": false
+  },
+  "vampiric_scepter": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1053.png",
+    "last_upgrade": false
+  },
+  "doran's_shield": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1054.png",
+    "last_upgrade": false
+  },
+  "doran's_blade": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1055.png",
+    "last_upgrade": false
+  },
+  "doran's_ring": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1056.png",
+    "last_upgrade": false
+  },
+  "negatron_cloak": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1057.png",
+    "last_upgrade": false
+  },
+  "needlessly_large_rod": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1058.png",
+    "last_upgrade": false
+  },
+  "dark_seal": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/1082.png",
+    "last_upgrade": false
+  },
+  "health_potion": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2003.png",
+    "last_upgrade": false
+  },
+  "kircheis_shard": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2015.png",
+    "last_upgrade": false
+  },
+  "refillable_potion": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2031.png",
+    "last_upgrade": false
+  },
+  "corrupting_potion": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2033.png",
+    "last_upgrade": false
+  },
+  "control_ward": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2055.png",
+    "last_upgrade": false
+  },
+  "shurelya's_battlesong": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2065.png",
+    "last_upgrade": false
+  },
+  "stopwatch": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2419.png",
+    "last_upgrade": false
+  },
+  "broken_stopwatch": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/2424.png",
+    "last_upgrade": false
+  },
+  "evenshroud": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3001.png",
+    "last_upgrade": false
+  },
+  "archangel's_staff": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3003.png",
+    "last_upgrade": true
+  },
+  "manamune": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3004.png",
+    "last_upgrade": true
+  },
+  "berserker's_greaves": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3006.png",
+    "last_upgrade": true
+  },
+  "boots_of_swiftness": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3009.png",
+    "last_upgrade": false
+  },
+  "chemtech_putrifier": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3011.png",
+    "last_upgrade": true
+  },
+  "chalice_of_blessing": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3012.png",
+    "last_upgrade": false
+  },
+  "sorcerer's_shoes": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3020.png",
+    "last_upgrade": true
+  },
+  "lifewell_pendant": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3023.png",
+    "last_upgrade": false
+  },
+  "glacial_buckler": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3024.png",
+    "last_upgrade": false
+  },
+  "guardian_angel": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3026.png",
+    "last_upgrade": true
+  },
+  "infinity_edge": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3031.png",
+    "last_upgrade": false
+  },
+  "mortal_reminder": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.15.1/img/item/3033.png",
+    "last_upgrade": true
+  },
+  "last_whisper": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3035.png",
+    "last_upgrade": false
+  },
+  "lord_dominik's_regards": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3036.png",
+    "last_upgrade": true
+  },
+  "mejai's_soulstealer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3041.png",
+    "last_upgrade": true
+  },
+  "phage": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3044.png",
+    "last_upgrade": false
+  },
+  "phantom_dancer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3046.png",
+    "last_upgrade": true
+  },
+  "plated_steelcaps": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3047.png",
+    "last_upgrade": true
+  },
+  "zeke's_convergence": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3050.png",
+    "last_upgrade": true
+  },
+  "hearthbound_axe": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3051.png",
+    "last_upgrade": false
+  },
+  "sterak's_gage": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3053.png",
+    "last_upgrade": true
+  },
+  "sheen": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3057.png",
+    "last_upgrade": false
+  },
+  "spirit_visage": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3065.png",
+    "last_upgrade": true
+  },
+  "winged_moonplate": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3066.png",
+    "last_upgrade": false
+  },
+  "kindlegem": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3067.png",
+    "last_upgrade": false
+  },
+  "sunfire_aegis": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3068.png",
+    "last_upgrade": true
+  },
+  "tear_of_the_goddess": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3070.png",
+    "last_upgrade": false
+  },
+  "black_cleaver": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3071.png",
+    "last_upgrade": true
+  },
+  "bloodthirster": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3072.png",
+    "last_upgrade": true
+  },
+  "ravenous_hydra": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3074.png",
+    "last_upgrade": true
+  },
+  "thornmail": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3075.png",
+    "last_upgrade": true
+  },
+  "bramble_vest": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3076.png",
+    "last_upgrade": false
+  },
+  "tiamat": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3077.png",
+    "last_upgrade": false
+  },
+  "trinity_force": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3078.png",
+    "last_upgrade": false
+  },
+  "warden's_mail": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3082.png",
+    "last_upgrade": false
+  },
+  "warmog's_armor": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3083.png",
+    "last_upgrade": true
+  },
+  "heartsteel": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3084.png",
+    "last_upgrade": false
+  },
+  "runaan's_hurricane": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3085.png",
+    "last_upgrade": true
+  },
+  "zeal": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3086.png",
+    "last_upgrade": false
+  },
+  "statikk_shiv": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3087.png",
+    "last_upgrade": true
+  },
+  "rabadon's_deathcap": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3089.png",
+    "last_upgrade": true
+  },
+  "wit's_end": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3091.png",
+    "last_upgrade": true
+  },
+  "rapid_firecannon": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3094.png",
+    "last_upgrade": true
+  },
+  "stormrazor": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3095.png",
+    "last_upgrade": true
+  },
+  "lich_bane": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3100.png",
+    "last_upgrade": true
+  },
+  "banshee's_veil": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3102.png",
+    "last_upgrade": true
+  },
+  "aegis_of_the_legion": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3105.png",
+    "last_upgrade": false
+  },
+  "redemption": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3107.png",
+    "last_upgrade": true
+  },
+  "fiendish_codex": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3108.png",
+    "last_upgrade": false
+  },
+  "knight's_vow": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3109.png",
+    "last_upgrade": true
+  },
+  "frozen_heart": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3110.png",
+    "last_upgrade": true
+  },
+  "mercury's_treads": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3111.png",
+    "last_upgrade": true
+  },
+  "aether_wisp": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3113.png",
+    "last_upgrade": false
+  },
+  "forbidden_idol": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3114.png",
+    "last_upgrade": false
+  },
+  "nashor's_tooth": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3115.png",
+    "last_upgrade": true
+  },
+  "rylai's_crystal_scepter": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3116.png",
+    "last_upgrade": true
+  },
+  "mobility_boots": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3117.png",
+    "last_upgrade": false
+  },
+  "winter's_approach": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3119.png",
+    "last_upgrade": true
+  },
+  "executioner's_calling": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3123.png",
+    "last_upgrade": false
+  },
+  "guinsoo's_rageblade": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3124.png",
+    "last_upgrade": false
+  },
+  "caulfield's_warhammer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3133.png",
+    "last_upgrade": false
+  },
+  "serrated_dirk": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3134.png",
+    "last_upgrade": false
+  },
+  "void_staff": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3135.png",
+    "last_upgrade": true
+  },
+  "mercurial_scimitar": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3139.png",
+    "last_upgrade": true
+  },
+  "quicksilver_sash": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3140.png",
+    "last_upgrade": false
+  },
+  "youmuu's_ghostblade": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3142.png",
+    "last_upgrade": false
+  },
+  "randuin's_omen": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3143.png",
+    "last_upgrade": true
+  },
+  "hextech_alternator": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3145.png",
+    "last_upgrade": false
+  },
+  "hextech_rocketbelt": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3152.png",
+    "last_upgrade": false
+  },
+  "blade_of_the_ruined_king": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3153.png",
+    "last_upgrade": true
+  },
+  "hexdrinker": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3155.png",
+    "last_upgrade": false
+  },
+  "maw_of_malmortius": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3156.png",
+    "last_upgrade": true
+  },
+  "zhonya's_hourglass": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3157.png",
+    "last_upgrade": true
+  },
+  "ionian_boots_of_lucidity": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3158.png",
+    "last_upgrade": false
+  },
+  "spear_of_shojin": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3161.png",
+    "last_upgrade": true
+  },
+  "morellonomicon": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3165.png",
+    "last_upgrade": true
+  },
+  "umbral_glaive": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3179.png",
+    "last_upgrade": true
+  },
+  "hullbreaker": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3181.png",
+    "last_upgrade": true
+  },
+  "locket_of_the_iron_solari": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3190.png",
+    "last_upgrade": false
+  },
+  "seeker's_armguard": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3191.png",
+    "last_upgrade": false
+  },
+  "gargoyle_stoneplate": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3193.png",
+    "last_upgrade": true
+  },
+  "spectre's_cowl": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3211.png",
+    "last_upgrade": false
+  },
+  "mikael's_blessing": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3222.png",
+    "last_upgrade": true
+  },
+  "stealth_ward": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3340.png",
+    "last_upgrade": false
+  },
+  "farsight_alteration": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3363.png",
+    "last_upgrade": false
+  },
+  "oracle_lens": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3364.png",
+    "last_upgrade": false
+  },
+  "ardent_censer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3504.png",
+    "last_upgrade": true
+  },
+  "essence_reaver": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3508.png",
+    "last_upgrade": true
+  },
+  "dead_man's_plate": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3742.png",
+    "last_upgrade": true
+  },
+  "titanic_hydra": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3748.png",
+    "last_upgrade": true
+  },
+  "crystalline_bracer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3801.png",
+    "last_upgrade": false
+  },
+  "lost_chapter": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3802.png",
+    "last_upgrade": false
+  },
+  "catalyst_of_aeons": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3803.png",
+    "last_upgrade": false
+  },
+  "edge_of_night": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3814.png",
+    "last_upgrade": true
+  },
+  "spellthief's_edge": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3850.png",
+    "last_upgrade": false
+  },
+  "steel_shoulderguards": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3854.png",
+    "last_upgrade": false
+  },
+  "relic_shield": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3858.png",
+    "last_upgrade": false
+  },
+  "spectral_sickle": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3862.png",
+    "last_upgrade": true
+  },
+  "oblivion_orb": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3916.png",
+    "last_upgrade": false
+  },
+  "imperial_mandate": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4005.png",
+    "last_upgrade": true
+  },
+  "force_of_nature": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4401.png",
+    "last_upgrade": true
+  },
+  "horizon_focus": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4628.png",
+    "last_upgrade": true
+  },
+  "cosmic_drive": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4629.png",
+    "last_upgrade": true
+  },
+  "blighting_jewel": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4630.png",
+    "last_upgrade": false
+  },
+  "verdant_barrier": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4632.png",
+    "last_upgrade": false
+  },
+  "riftmaker": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4633.png",
+    "last_upgrade": false
+  },
+  "leeching_leer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4635.png",
+    "last_upgrade": false
+  },
+  "night_harvester": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4636.png",
+    "last_upgrade": false
+  },
+  "demonic_embrace": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4637.png",
+    "last_upgrade": true
+  },
+  "watchful_wardstone": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4638.png",
+    "last_upgrade": false
+  },
+  "bandleglass_mirror": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4642.png",
+    "last_upgrade": false
+  },
+  "vigilant_wardstone": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4643.png",
+    "last_upgrade": false
+  },
+  "crown_of_the_shattered_queen": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4644.png",
+    "last_upgrade": false
+  },
+  "shadowflame": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/4645.png",
+    "last_upgrade": true
+  },
+  "ironspike_whip": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6029.png",
+    "last_upgrade": false
+  },
+  "silvermere_dawn": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6035.png",
+    "last_upgrade": true
+  },
+  "death's_dance": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6333.png",
+    "last_upgrade": true
+  },
+  "chempunk_chainsword": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6609.png",
+    "last_upgrade": true
+  },
+  "staff_of_flowing_water": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/3744.png",
+    "last_upgrade": true
+  },
+  "moonstone_renewer": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6617.png",
+    "last_upgrade": false
+  },
+  "echoes_of_helia": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6620.png",
+    "last_upgrade": false
+  },
+  "goredrinker": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6630.png",
+    "last_upgrade": false
+  },
+  "stridebreaker": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6631.png",
+    "last_upgrade": false
+  },
+  "divine_sunderer": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6632.png",
+    "last_upgrade": false
+  },
+  "liandry's_anguish": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6653.png",
+    "last_upgrade": false
+  },
+  "luden's_tempest": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6655.png",
+    "last_upgrade": false
+  },
+  "everfrost": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6656.png",
+    "last_upgrade": false
+  },
+  "rod_of_ages": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6657.png",
+    "last_upgrade": false
+  },
+  "bami's_cinder": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6660.png",
+    "last_upgrade": false
+  },
+  "iceborn_gauntlet": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6662.png",
+    "last_upgrade": false
+  },
+  "turbo_chemtank": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6664.png",
+    "last_upgrade": true
+  },
+  "jak'sho,_the_protean": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6665.png",
+    "last_upgrade": false
+  },
+  "radiant_virtue": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6667.png",
+    "last_upgrade": false
+  },
+  "noonquiver": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6670.png",
+    "last_upgrade": false
+  },
+  "galeforce": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6671.png",
+    "last_upgrade": false
+  },
+  "kraken_slayer": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6672.png",
+    "last_upgrade": true
+  },
+  "immortal_shieldbow": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6673.png",
+    "last_upgrade": true
+  },
+  "navori_quickblades": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6675.png",
+    "last_upgrade": false
+  },
+  "the_collector": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6676.png",
+    "last_upgrade": true
+  },
+  "rageknife": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6677.png",
+    "last_upgrade": false
+  },
+  "duskblade_of_draktharr": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6691.png",
+    "last_upgrade": false
+  },
+  "eclipse": {
+    "mythic": true,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6692.png",
+    "last_upgrade": false
+  },
+  "prowler's_claw": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6693.png",
+    "last_upgrade": false
+  },
+  "serylda's_grudge": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6694.png",
+    "last_upgrade": true
+  },
+  "serpent's_fang": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6695.png",
+    "last_upgrade": true
+  },
+  "axiom_arc": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/6696.png",
+    "last_upgrade": true
+  },
+  "anathema's_chains": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/8001.png",
+    "last_upgrade": true
+  },
+  "abyssal_mask": {
+    "mythic": false,
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.18.1/img/item/8020.png",
+    "last_upgrade": true
+  }
+>>>>>>> main
 }
