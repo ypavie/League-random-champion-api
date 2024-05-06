@@ -180,7 +180,4 @@ class TestChampionConfigurationGenerator(unittest.TestCase):
         self.assertIn(item, self.championConfigurationGenerator.BOOTS_NAME)
 
 if __name__ == '__main__':
-    # unittest.main()
-    # generate_random_champion_configuration
-    r = ChampionConfigurationGenerator()
-    pprint(r.generate_random_champion_configuration())
+    unittest.main()

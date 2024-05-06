@@ -306,11 +306,9 @@ class ChampionConfigurationGenerator:
         return item_names
 
     def get_random_starting_item(self, lane) -> str:
-        print('generating starting item for lane:', lane)
         if lane == "jungle":
             return np.random.choice(self.JUNGLE_ITEMS)
         elif lane == "support":
-            print('generating support item')
             return "world_atlas"
         else:
             return np.random.choice(
