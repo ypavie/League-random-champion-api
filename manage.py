@@ -2,9 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import requests
-import json
-
 
 def main():
     """Run administrative tasks."""
@@ -21,10 +18,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # response = requests.get('https://ddragon.leagueoflegends.com/api/versions.json')
-    # CURRENT_PATCH = json.loads(response.text)[0]
-    # response = requests.get(f'https://ddragon.leagueoflegends.com/cdn/14.6.1/data/en_US/item.json')
-    # items = json.loads(response.text)
-    # with open(f'lor_backend/assets/items_14.6.1.json', 'w') as items_file:
-    #     json.dump(items, items_file)
     main()
