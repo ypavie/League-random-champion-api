@@ -73,9 +73,6 @@ def get_random_champion(request: Any) -> Response:
         allowedChampionList: List[str] = request.data.get("allowedChampionList", [])
         lanes: List[str] = request.data.get("lanes", []) 
 
-        pprint(allowedChampionList)
-        pprint(lanes)
-
         championConfigurationGenerator = ChampionConfigurationGenerator()
         random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration(
             allowedChampionList=allowedChampionList,
