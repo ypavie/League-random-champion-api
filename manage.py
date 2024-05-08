@@ -3,10 +3,6 @@
 import os
 import sys
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lor_backend.settings')
