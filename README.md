@@ -1,8 +1,7 @@
 # League random champion API
 
-This API is inspired by the popular Ultimate Bravery game mode from League of Legends. This Django web application generates random combinations of champions, summoner spells, items, and runes, staying true to the essence of its inspiration.
-
-While currently focused on replicating Ultimate Bravery's gameplay, there's potential for future enhancements, including the addition of a frontend with more interactive features and filters.
+API inspired by [Ultimate Bravery](https://ultimate-bravery.net/) to generate random champion builds.
+Currently supporting patch 14.6.1.
 
 ## Installation
 
