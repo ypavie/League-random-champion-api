@@ -138,7 +138,6 @@ While currently focused on replicating Ultimate Bravery's gameplay, there's pote
         "https://ddragon.leagueoflegends.com/cdn/14.6.1/img/item/1083.png"
     ],
     "unique_id": 252525
-}
     ```
 
 - `GET /data/<str:file>`: Retrieve data files (e.g., champions, items) in JSON format.
@@ -162,7 +161,7 @@ While currently focused on replicating Ultimate Bravery's gameplay, there's pote
             "mid",
             "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/mid.png"
         ],
-        ...
+        "...": ["..."]
     }
     ```
 
