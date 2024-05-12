@@ -1,6 +1,6 @@
-# League of Randoms
+# League random champion API
 
-League of Randoms is inspired by the popular Ultimate Bravery game mode from League of Legends. This Django web application generates random combinations of champions, summoner spells, items, and runes, staying true to the essence of its inspiration.
+This API is inspired by the popular Ultimate Bravery game mode from League of Legends. This Django web application generates random combinations of champions, summoner spells, items, and runes, staying true to the essence of its inspiration.
 
 While currently focused on replicating Ultimate Bravery's gameplay, there's potential for future enhancements, including the addition of a frontend with more interactive features and filters.
 
@@ -9,13 +9,13 @@ While currently focused on replicating Ultimate Bravery's gameplay, there's pote
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/ypavie/LeagueOfRandoms.git
+    git clone https://github.com/ypavie/League-random-champion-api.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd LeagueOfRandoms
+    cd League-random-champion-api
     ```
 
 3. Install the required dependencies:
@@ -169,6 +169,8 @@ While currently focused on replicating Ultimate Bravery's gameplay, there's pote
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+League-random-champion-api is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc
 
 ## Acknowledgements
 
