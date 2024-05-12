@@ -26,29 +26,39 @@ def get_champion(request: Any, id: int) -> Response:
             serializer: ChampionSerializer = ChampionSerializer(champion)
 
             championConfigurationGenerator = ChampionConfigurationGenerator()
-            championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                champion_configuration=serializer.data,
+            championConfiguration: Dict[str, Dict[str, str]] = (
+                championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                    champion_configuration=serializer.data,
+                )
             )
-        
+
             return Response(championConfiguration, status=status.HTTP_200_OK)
 
         except Champion.DoesNotExist:
             championConfigurationGenerator = ChampionConfigurationGenerator()
 
-            random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration()
-            championConfiguration: Dict[str, Dict[str, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                champion_configuration=random_champion,
+            random_champion: Dict[str, str] = (
+                championConfigurationGenerator.generate_random_champion_configuration()
+            )
+            championConfiguration: Dict[str, Dict[str, str]] = (
+                championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                    champion_configuration=random_champion,
+                )
             )
 
             random_champion["unique_id"] = 1
-            while Champion.objects.filter(unique_id=random_champion["unique_id"]).exists():
+            while Champion.objects.filter(
+                unique_id=random_champion["unique_id"]
+            ).exists():
                 random_champion["unique_id"] += 1
 
             serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
             if serializer.is_valid():
                 serializer.save()
-                champion_with_url: Dict[str, Union[int, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                    champion_configuration=random_champion,
+                champion_with_url: Dict[str, Union[int, str]] = (
+                    championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                        champion_configuration=random_champion,
+                    )
                 )
                 return Response(champion_with_url, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
@@ -71,12 +81,14 @@ def get_data(request: Any, file: str) -> HttpResponse:
 def get_random_champion(request: Any) -> Response:
     if request.method == "POST":
         allowedChampionList: List[str] = request.data.get("allowedChampionList", [])
-        lanes: List[str] = request.data.get("lanes", []) 
+        lanes: List[str] = request.data.get("lanes", [])
 
         championConfigurationGenerator = ChampionConfigurationGenerator()
-        random_champion: Dict[str, str] = championConfigurationGenerator.generate_random_champion_configuration(
-            allowedChampionList=allowedChampionList,
-            lanes_available=lanes,
+        random_champion: Dict[str, str] = (
+            championConfigurationGenerator.generate_random_champion_configuration(
+                allowedChampionList=allowedChampionList,
+                lanes_available=lanes,
+            )
         )
         random_champion["unique_id"] = 1
         while Champion.objects.filter(unique_id=random_champion["unique_id"]).exists():
@@ -85,8 +97,10 @@ def get_random_champion(request: Any) -> Response:
         serializer: ChampionSerializer = ChampionSerializer(data=random_champion)
         if serializer.is_valid():
             serializer.save()
-            random_champion_with_url: Dict[str, Union[int, str]] = championConfigurationGenerator.generate_random_champion_configuration_with_url(
-                champion_configuration=random_champion,
+            random_champion_with_url: Dict[str, Union[int, str]] = (
+                championConfigurationGenerator.generate_random_champion_configuration_with_url(
+                    champion_configuration=random_champion,
+                )
             )
             return Response(random_champion_with_url, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
