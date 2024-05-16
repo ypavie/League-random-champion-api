@@ -1,6 +1,8 @@
 from django.contrib import admin
 from django.urls import path
 from lor_backend import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("", views.index),
@@ -9,3 +11,6 @@ urlpatterns = [
     path("data/<str:file>", views.get_data),
     path("random_champion", views.get_random_champion),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
