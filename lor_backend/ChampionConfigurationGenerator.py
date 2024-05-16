@@ -4,48 +4,55 @@ import json
 import os
 from typing import Dict, List, Tuple, Union
 from pprint import pprint
+from django.conf import settings
+
 
 class ChampionConfigurationGenerator:
 
     BOOTS_NAME: List[str] = [
-            "berserker's_greaves",
-            "ionian_boots_of_lucidity",
-            "plated_steelcaps",
-            "mercury's_treads",
-            "sorcerer's_shoes",
-            "boots_of_swiftness",
-            "mobility_boots",
-        ]
+        "berserker's_greaves",
+        "ionian_boots_of_lucidity",
+        "plated_steelcaps",
+        "mercury's_treads",
+        "sorcerer's_shoes",
+        "boots_of_swiftness",
+        "mobility_boots",
+    ]
 
     SUPPORT_ITEMS: List[str] = [
-            "bloodsong",
-            "celestial_opposition",
-            "dream_maker",
-            "solstice_sleigh",
-            "zaz'zak's_realmspike",
-        ]
-    
+        "bloodsong",
+        "celestial_opposition",
+        "dream_maker",
+        "solstice_sleigh",
+        "zaz'zak's_realmspike",
+    ]
+
     JUNGLE_ITEMS: List[str] = [
-            "gustwalker_hatchling",
-            "mosstomper_seedling",
-            "scorchclaw_pup",
-        ]
+        "gustwalker_hatchling",
+        "mosstomper_seedling",
+        "scorchclaw_pup",
+    ]
 
     UNIQUE_PASSIVES: List[List[str]] = [
-            ["lord_dominik's_regards","mortal_reminder","serylda's_grudge","black_cleaver","terminus",],
-            ["titanic_hydra", "ravenous_hydra", "stridebreaker", "profane_hydra"],
-            ["fimbulwinter", "muramana", "seraph's_embrace"],
-            ["cryptobloom", "void_staff", "terminus", "guinsoo's_rageblade"],
-            ["essence_reaver", "lich_bane", "trinity_force", "iceborn_gauntlet"],
-            ["infinity_edge", "navori_quickblades"],
-            ["trailblazer", "dead_man's_plate"],
-            ["seraph's_embrace", "shieldbow", "maw_of_malmortius", "sterak's_gage"],
-        ]
+        [
+            "lord_dominik's_regards",
+            "mortal_reminder",
+            "serylda's_grudge",
+            "black_cleaver",
+            "terminus",
+        ],
+        ["titanic_hydra", "ravenous_hydra", "stridebreaker", "profane_hydra"],
+        ["fimbulwinter", "muramana", "seraph's_embrace"],
+        ["cryptobloom", "void_staff", "terminus", "guinsoo's_rageblade"],
+        ["essence_reaver", "lich_bane", "trinity_force", "iceborn_gauntlet"],
+        ["infinity_edge", "navori_quickblades"],
+        ["trailblazer", "dead_man's_plate"],
+        ["seraph's_embrace", "shieldbow", "maw_of_malmortius", "sterak's_gage"],
+    ]
 
     def __init__(self):
-        # self.assets_dir = os.path.join(settings.BASE_DIR, "lor_backend", "assets")
-        self.assets_dir = os.path.join(os.path.dirname(__file__), "assets")
-        
+        self.assets_dir = os.path.join(settings.BASE_DIR, "static")
+
         self.champions_json_path = os.path.join(self.assets_dir, "champions.json")
         self.items_json_path = os.path.join(self.assets_dir, "items.json")
         self.runes_json_path = os.path.join(self.assets_dir, "runes.json")
@@ -63,19 +70,23 @@ class ChampionConfigurationGenerator:
         except FileNotFoundError:
             print("File {} not found".format(file_path))
             return {}
-        
-    def generate_random_champion_configuration_with_url(self,
+
+    def generate_random_champion_configuration_with_url(
+        self,
         champion_configuration: Dict[str, str] = None,
         allowedChampionList: List[str] = None,
-        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"]
+        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"],
     ) -> Dict[str, Dict[str, str]]:
         if champion_configuration is None:
-            champion_configuration = self.generate_random_champion_configuration(allowedChampionList, lanes_available)
+            champion_configuration = self.generate_random_champion_configuration(
+                allowedChampionList, lanes_available
+            )
         return self.champion_to_url(champion_configuration)
 
-    def generate_random_champion_configuration(self,
+    def generate_random_champion_configuration(
+        self,
         allowedChampionList: List[str] = None,
-        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"]
+        lanes_available: List[str] = ["top", "jungle", "middle", "bottom", "support"],
     ) -> Dict[str, str]:
         name: str = self.get_random_champion_name(allowedChampionList)
         spell_to_max: int = self.get_random_spell_to_max()
@@ -83,7 +94,9 @@ class ChampionConfigurationGenerator:
         items: List[str] = self.get_random_items(name, lane)
         starting_item: str = self.get_random_starting_item(lane)
         summoner_spells: List[str] = self.get_random_summoner_spells(lane)
-        runes: Tuple[str, List[str], str, List[str], List[str]] = self.get_random_runes()
+        runes: Tuple[str, List[str], str, List[str], List[str]] = (
+            self.get_random_runes()
+        )
 
         champion_configuration: Dict[str, Union[int, str]] = {
             "name": name,
@@ -116,101 +129,138 @@ class ChampionConfigurationGenerator:
     def get_rune_icon(self, slot_index, rune_index):
         runes = self.rune_data["Shards"]["slots"][slot_index]["runes"]
         for rune in runes:
-            if rune['key'] == rune_index:
-                return rune['icon']
+            if rune["key"] == rune_index:
+                return rune["icon"]
         return None
 
-    def champion_to_url(self, current_champion: Dict[str, str]) -> Dict[str, Dict[str, str]]:
+    def champion_to_url(
+        self, current_champion: Dict[str, str]
+    ) -> Dict[str, Dict[str, str]]:
         champion_configuration: Dict[str, Dict[str, str]] = {
             "name": current_champion["name"],
             "icon": f"https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/{current_champion['name']}.png",
             "role": [
                 current_champion["role"],
-                f"https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/{current_champion['role']}.png"
+                f"https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/extras/lanes/{current_champion['role']}.png",
             ],
             "spell_to_max": [
                 current_champion["spell_to_max"],
-                self.champion_data[current_champion["name"]]["spells"][int(current_champion["spell_to_max"])]
+                self.champion_data[current_champion["name"]]["spells"][
+                    int(current_champion["spell_to_max"])
+                ],
             ],
             "summoner_spell_1": [
                 current_champion["summoner_spell_1"],
-                self.summoner_spell_data[current_champion["summoner_spell_1"]]["icon"]
+                self.summoner_spell_data[current_champion["summoner_spell_1"]]["icon"],
             ],
             "summoner_spell_2": [
                 current_champion["summoner_spell_2"],
-                self.summoner_spell_data[current_champion["summoner_spell_2"]]["icon"]
+                self.summoner_spell_data[current_champion["summoner_spell_2"]]["icon"],
             ],
             "rune_main_tree": [
                 current_champion["rune_main_tree"],
-                self.rune_data[current_champion["rune_main_tree"]]["icon"]
+                self.rune_data[current_champion["rune_main_tree"]]["icon"],
             ],
             "rune_main_keystone": [
                 current_champion["rune_main_keystone"],
-                self.rune_data[current_champion["rune_main_tree"]]["slots"][0]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_main_tree"]]["slots"][0]["runes"][
+                    0
+                ]["icon"],
             ],
             "rune_main_1": [
                 current_champion["rune_main_1"],
-                self.rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_main_tree"]]["slots"][1]["runes"][
+                    0
+                ]["icon"],
             ],
             "rune_main_2": [
                 current_champion["rune_main_2"],
-                self.rune_data[current_champion["rune_main_tree"]]["slots"][2]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_main_tree"]]["slots"][2]["runes"][
+                    0
+                ]["icon"],
             ],
             "rune_main_3": [
                 current_champion["rune_main_3"],
-                self.rune_data[current_champion["rune_main_tree"]]["slots"][3]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_main_tree"]]["slots"][3]["runes"][
+                    0
+                ]["icon"],
             ],
             "rune_secondary_tree": [
                 current_champion["rune_secondary_tree"],
-                self.rune_data[current_champion["rune_secondary_tree"]]["icon"]
+                self.rune_data[current_champion["rune_secondary_tree"]]["icon"],
             ],
             "rune_secondary_1": [
                 current_champion["rune_secondary_1"],
-                self.rune_data[current_champion["rune_secondary_tree"]]["slots"][1]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_secondary_tree"]]["slots"][1][
+                    "runes"
+                ][0]["icon"],
             ],
             "rune_secondary_2": [
                 current_champion["rune_secondary_2"],
-                self.rune_data[current_champion["rune_secondary_tree"]]["slots"][2]["runes"][0]["icon"]
+                self.rune_data[current_champion["rune_secondary_tree"]]["slots"][2][
+                    "runes"
+                ][0]["icon"],
             ],
             "rune_shard_1": [
                 current_champion["rune_shard_1"],
-                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][0]["runes"] if rune['key'] == current_champion["rune_shard_1"]), None)
+                next(
+                    (
+                        rune["icon"]
+                        for rune in self.rune_data["Shards"]["slots"][0]["runes"]
+                        if rune["key"] == current_champion["rune_shard_1"]
+                    ),
+                    None,
+                ),
             ],
             "rune_shard_2": [
                 current_champion["rune_shard_2"],
-                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][1]["runes"] if rune['key'] == current_champion["rune_shard_2"]), None)
+                next(
+                    (
+                        rune["icon"]
+                        for rune in self.rune_data["Shards"]["slots"][1]["runes"]
+                        if rune["key"] == current_champion["rune_shard_2"]
+                    ),
+                    None,
+                ),
             ],
             "rune_shard_3": [
                 current_champion["rune_shard_3"],
-                next((rune['icon'] for rune in self.rune_data["Shards"]["slots"][2]["runes"] if rune['key'] == current_champion["rune_shard_3"]), None)
+                next(
+                    (
+                        rune["icon"]
+                        for rune in self.rune_data["Shards"]["slots"][2]["runes"]
+                        if rune["key"] == current_champion["rune_shard_3"]
+                    ),
+                    None,
+                ),
             ],
             "item_1": [
                 current_champion["item_1"],
-                self.item_data[current_champion["item_1"]]["icon"]
+                self.item_data[current_champion["item_1"]]["icon"],
             ],
             "item_2": [
                 current_champion["item_2"],
-                self.item_data[current_champion["item_2"]]["icon"]
+                self.item_data[current_champion["item_2"]]["icon"],
             ],
             "item_3": [
                 current_champion["item_3"],
-                self.item_data[current_champion["item_3"]]["icon"]
+                self.item_data[current_champion["item_3"]]["icon"],
             ],
             "item_4": [
                 current_champion["item_4"],
-                self.item_data[current_champion["item_4"]]["icon"]
+                self.item_data[current_champion["item_4"]]["icon"],
             ],
             "item_5": [
                 current_champion["item_5"],
-                self.item_data[current_champion["item_5"]]["icon"]
+                self.item_data[current_champion["item_5"]]["icon"],
             ],
             "item_6": [
                 current_champion["item_6"],
-                self.item_data[current_champion["item_6"]]["icon"]
+                self.item_data[current_champion["item_6"]]["icon"],
             ],
             "starter_item": [
                 current_champion["starter_item"],
-                self.item_data[current_champion["starter_item"]]["icon"]
+                self.item_data[current_champion["starter_item"]]["icon"],
             ],
         }
 
@@ -219,13 +269,15 @@ class ChampionConfigurationGenerator:
 
         return champion_configuration
 
-    def get_random_champion_name(self, allowedChampionList: List[str] = None) -> Dict[str, str]:
+    def get_random_champion_name(
+        self, allowedChampionList: List[str] = None
+    ) -> Dict[str, str]:
         filtered_champion_ids = list(self.champion_data.keys())
 
         if allowedChampionList:
             filtered_champion_ids = [
-                champion_id 
-                for champion_id in filtered_champion_ids 
+                champion_id
+                for champion_id in filtered_champion_ids
                 if champion_id in allowedChampionList
             ]
 
@@ -240,9 +292,18 @@ class ChampionConfigurationGenerator:
         lanes_available = [lane.lower() for lane in lanes_available]
         return np.random.choice(lanes_available)
 
-    def get_random_summoner_spells(self,lane: str) -> List[str]:
+    def get_random_summoner_spells(self, lane: str) -> List[str]:
         if lane == "jungle":
-            return ["smite", np.random.choice([spell for spell in self.summoner_spell_data.keys() if spell != "smite"])]
+            return [
+                "smite",
+                np.random.choice(
+                    [
+                        spell
+                        for spell in self.summoner_spell_data.keys()
+                        if spell != "smite"
+                    ]
+                ),
+            ]
         else:
             # Exclude smite for non-junglers
             summoner_spells = [
@@ -260,7 +321,11 @@ class ChampionConfigurationGenerator:
         ]
 
         secondary_tree = np.random.choice(
-            [tree for tree in self.rune_data.keys() if tree != "Shards" and tree != primary_tree]
+            [
+                tree
+                for tree in self.rune_data.keys()
+                if tree != "Shards" and tree != primary_tree
+            ]
         )
         secondary_tree_runes = self.rune_data[secondary_tree]["slots"]
         secondary_runes = [
@@ -269,7 +334,8 @@ class ChampionConfigurationGenerator:
         secondary_runes.pop(random.randint(0, len(secondary_runes) - 1))
 
         shards = [
-            np.random.choice(slot["runes"])["key"] for slot in self.rune_data["Shards"]["slots"]
+            np.random.choice(slot["runes"])["key"]
+            for slot in self.rune_data["Shards"]["slots"]
         ]
 
         return primary_tree, primary_runes, secondary_tree, secondary_runes, shards
@@ -289,13 +355,18 @@ class ChampionConfigurationGenerator:
         legendary_items = [
             item
             for item in self.item_data.keys()
-            if self.item_data[item].get("last_upgrade", False) and item not in self.SUPPORT_ITEMS
+            if self.item_data[item].get("last_upgrade", False)
+            and item not in self.SUPPORT_ITEMS
         ]
 
         while len(item_names) < 6:
             item = random.choice(legendary_items)
 
-            if item in item_names or item in self.BOOTS_NAME or item in self.SUPPORT_ITEMS:
+            if (
+                item in item_names
+                or item in self.BOOTS_NAME
+                or item in self.SUPPORT_ITEMS
+            ):
                 continue
 
             for group in self.UNIQUE_PASSIVES:
@@ -315,6 +386,8 @@ class ChampionConfigurationGenerator:
                 [
                     item
                     for item in self.item_data.keys()
-                    if self.item_data[item].get("is_starter", False) and item not in self.JUNGLE_ITEMS and item != "world_atlas"
+                    if self.item_data[item].get("is_starter", False)
+                    and item not in self.JUNGLE_ITEMS
+                    and item != "world_atlas"
                 ]
             )
