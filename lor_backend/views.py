@@ -68,9 +68,18 @@ def get_champion(request: Any, id: int) -> Response:
 
 @api_view(["GET"])
 def get_data(request: Any, file: str) -> HttpResponse:
+    authorized_files: List[str] = [
+        "champions",
+        "items",
+        "runes",
+        "skinlines",
+        "summoners",
+    ]
     if request.method == "GET":
+        if file not in authorized_files:
+            return HttpResponse(json.dumps({}), content_type="application/json")
         try:
-            with open(f"lor_backend/assets/{file}.json", "r") as json_file:
+            with open(f"static/{file}.json", "r") as json_file:
                 data = json.load(json_file)
                 return HttpResponse(json.dumps(data), content_type="application/json")
         except FileNotFoundError:
