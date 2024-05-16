@@ -25,11 +25,11 @@
         "species": [
             "Darkin"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2013,
-        "mana source": "Manaless"
+        "year": 2013,
+        "mana": "Manaless"
     },
     "Ahri": {
         "id": "Ahri",
@@ -56,11 +56,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Akali": {
         "id": "Akali",
@@ -87,11 +87,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Akshan": {
         "id": "Akshan",
@@ -118,11 +118,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2021,
-        "mana source": "Mana"
+        "year": 2021,
+        "mana": "Mana"
     },
     "Alistar": {
         "id": "Alistar",
@@ -149,11 +149,11 @@
         "species": [
             "Minotaur"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Amumu": {
         "id": "Amumu",
@@ -181,11 +181,11 @@
             "Undead",
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Anivia": {
         "id": "Anivia",
@@ -213,11 +213,11 @@
             "God",
             "Spirit"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Annie": {
         "id": "Annie",
@@ -245,11 +245,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Aphelios": {
         "id": "Aphelios",
@@ -276,11 +276,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2019,
-        "mana source": "Mana"
+        "year": 2019,
+        "mana": "Mana"
     },
     "Ashe": {
         "id": "Ashe",
@@ -309,11 +309,11 @@
             "Human",
             "Iceborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "AurelionSol": {
         "id": "AurelionSol",
@@ -337,15 +337,15 @@
             "Celestial",
             "Dragon"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Runeterra",
             "Targon"
         ],
-        "release year": 2016,
-        "mana source": "Mana"
+        "year": 2016,
+        "mana": "Mana"
     },
     "Azir": {
         "id": "Azir",
@@ -372,11 +372,11 @@
         "species": [
             "God-Warrior"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2014,
-        "mana source": "Mana"
+        "year": 2014,
+        "mana": "Mana"
     },
     "Bard": {
         "id": "Bard",
@@ -403,11 +403,11 @@
         "species": [
             "Celestial"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2015,
-        "mana source": "Mana"
+        "year": 2015,
+        "mana": "Mana"
     },
     "Belveth": {
         "id": "Belveth",
@@ -430,14 +430,14 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2022,
-        "mana source": "Manaless"
+        "year": 2022,
+        "mana": "Manaless"
     },
     "Blitzcrank": {
         "id": "Blitzcrank",
@@ -464,11 +464,11 @@
         "species": [
             "Golem"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Brand": {
         "id": "Brand",
@@ -497,11 +497,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Braum": {
         "id": "Braum",
@@ -529,11 +529,11 @@
             "Human",
             "Iceborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2014,
-        "mana source": "Mana"
+        "year": 2014,
+        "mana": "Mana"
     },
     "Caitlyn": {
         "id": "Caitlyn",
@@ -559,11 +559,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Camille": {
         "id": "Camille",
@@ -591,11 +591,11 @@
             "Cyborg",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2016,
-        "mana source": "Mana"
+        "year": 2016,
+        "mana": "Mana"
     },
     "Cassiopeia": {
         "id": "Cassiopeia",
@@ -623,11 +623,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Chogath": {
         "id": "Chogath",
@@ -651,14 +651,14 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Corki": {
         "id": "Corki",
@@ -685,11 +685,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Darius": {
         "id": "Darius",
@@ -716,11 +716,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Diana": {
         "id": "Diana",
@@ -749,11 +749,11 @@
             "Aspect",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Draven": {
         "id": "Draven",
@@ -779,11 +779,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "DrMundo": {
         "id": "DrMundo",
@@ -808,14 +808,14 @@
             "Chemically Altered",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Zaun"
         ],
-        "release year": 2009,
-        "mana source": "Manaless"
+        "year": 2009,
+        "mana": "Manaless"
     },
     "Ekko": {
         "id": "Ekko",
@@ -843,11 +843,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2015,
-        "mana source": "Mana"
+        "year": 2015,
+        "mana": "Mana"
     },
     "Elise": {
         "id": "Elise",
@@ -876,12 +876,12 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee",
-            "Ranged"
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Evelynn": {
         "id": "Evelynn",
@@ -909,11 +909,11 @@
             "Demon",
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Ezreal": {
         "id": "Ezreal",
@@ -941,11 +941,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Fiddlesticks": {
         "id": "Fiddlesticks",
@@ -973,11 +973,11 @@
             "Demon",
             "Spirit"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Fiora": {
         "id": "Fiora",
@@ -1004,11 +1004,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Fizz": {
         "id": "Fizz",
@@ -1035,11 +1035,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Galio": {
         "id": "Galio",
@@ -1067,11 +1067,11 @@
         "species": [
             "Golem"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Gangplank": {
         "id": "Gangplank",
@@ -1097,11 +1097,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Garen": {
         "id": "Garen",
@@ -1128,11 +1128,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Gnar": {
         "id": "Gnar",
@@ -1159,12 +1159,12 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee",
-            "Ranged"
+            "Range"
         ],
-        "release year": 2014,
-        "mana source": "Manaless"
+        "year": 2014,
+        "mana": "Manaless"
     },
     "Gragas": {
         "id": "Gragas",
@@ -1192,11 +1192,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Graves": {
         "id": "Graves",
@@ -1222,11 +1222,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Gwen": {
         "id": "Gwen",
@@ -1255,11 +1255,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2021,
-        "mana source": "Mana"
+        "year": 2021,
+        "mana": "Mana"
     },
     "Hecarim": {
         "id": "Hecarim",
@@ -1287,11 +1287,11 @@
         "species": [
             "Undead"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Heimerdinger": {
         "id": "Heimerdinger",
@@ -1320,11 +1320,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Illaoi": {
         "id": "Illaoi",
@@ -1352,11 +1352,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2015,
-        "mana source": "Mana"
+        "year": 2015,
+        "mana": "Mana"
     },
     "Irelia": {
         "id": "Irelia",
@@ -1385,11 +1385,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Ivern": {
         "id": "Ivern",
@@ -1418,11 +1418,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2016,
-        "mana source": "Mana"
+        "year": 2016,
+        "mana": "Mana"
     },
     "Janna": {
         "id": "Janna",
@@ -1451,11 +1451,11 @@
             "God",
             "Spirit"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "JarvanIV": {
         "id": "JarvanIV",
@@ -1479,14 +1479,14 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Demacia"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Jax": {
         "id": "Jax",
@@ -1515,11 +1515,11 @@
         "species": [
             "Unknown"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Jayce": {
         "id": "Jayce",
@@ -1547,12 +1547,12 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee",
-            "Ranged"
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Jhin": {
         "id": "Jhin",
@@ -1580,11 +1580,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2016,
-        "mana source": "Mana"
+        "year": 2016,
+        "mana": "Mana"
     },
     "Jinx": {
         "id": "Jinx",
@@ -1611,11 +1611,11 @@
             "Chemically Altered",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2013,
-        "mana source": "Mana"
+        "year": 2013,
+        "mana": "Mana"
     },
     "Kaisa": {
         "id": "Kaisa",
@@ -1639,15 +1639,15 @@
             "Human",
             "Void-Being"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Shurima",
             "Void"
         ],
-        "release year": 2018,
-        "mana source": "Mana"
+        "year": 2018,
+        "mana": "Mana"
     },
     "Kalista": {
         "id": "Kalista",
@@ -1674,11 +1674,11 @@
         "species": [
             "Undead"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2014,
-        "mana source": "Mana"
+        "year": 2014,
+        "mana": "Mana"
     },
     "Karma": {
         "id": "Karma",
@@ -1706,11 +1706,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Karthus": {
         "id": "Karthus",
@@ -1737,11 +1737,11 @@
         "species": [
             "Undead"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Kassadin": {
         "id": "Kassadin",
@@ -1770,11 +1770,11 @@
             "Human",
             "Void-Being"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Katarina": {
         "id": "Katarina",
@@ -1801,11 +1801,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Manaless"
+        "year": 2009,
+        "mana": "Manaless"
     },
     "Kayle": {
         "id": "Kayle",
@@ -1835,12 +1835,12 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee",
-            "Ranged"
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Kayn": {
         "id": "Kayn",
@@ -1872,11 +1872,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2017,
-        "mana source": "Mana"
+        "year": 2017,
+        "mana": "Mana"
     },
     "Kennen": {
         "id": "Kennen",
@@ -1900,14 +1900,14 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Khazix": {
         "id": "Khazix",
@@ -1930,14 +1930,14 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Kindred": {
         "id": "Kindred",
@@ -1964,11 +1964,11 @@
             "God",
             "Spirit"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2015,
-        "mana source": "Mana"
+        "year": 2015,
+        "mana": "Mana"
     },
     "Kled": {
         "id": "Kled",
@@ -1995,11 +1995,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2016,
-        "mana source": "Manaless"
+        "year": 2016,
+        "mana": "Manaless"
     },
     "KogMaw": {
         "id": "KogMaw",
@@ -2023,14 +2023,14 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "KSante": {
         "id": "KSante",
@@ -2054,14 +2054,14 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Shurima"
         ],
-        "release year": 2022,
-        "mana source": "Mana"
+        "year": 2022,
+        "mana": "Mana"
     },
     "Leblanc": {
         "id": "Leblanc",
@@ -2089,11 +2089,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "LeeSin": {
         "id": "LeeSin",
@@ -2118,14 +2118,14 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2011,
-        "mana source": "Manaless"
+        "year": 2011,
+        "mana": "Manaless"
     },
     "Leona": {
         "id": "Leona",
@@ -2153,11 +2153,11 @@
             "Aspect",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Lillia": {
         "id": "Lillia",
@@ -2184,11 +2184,11 @@
         "species": [
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2020,
-        "mana source": "Mana"
+        "year": 2020,
+        "mana": "Mana"
     },
     "Lissandra": {
         "id": "Lissandra",
@@ -2215,11 +2215,11 @@
             "Human",
             "Iceborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2013,
-        "mana source": "Mana"
+        "year": 2013,
+        "mana": "Mana"
     },
     "Lucian": {
         "id": "Lucian",
@@ -2246,11 +2246,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2013,
-        "mana source": "Mana"
+        "year": 2013,
+        "mana": "Mana"
     },
     "Lulu": {
         "id": "Lulu",
@@ -2277,11 +2277,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Lux": {
         "id": "Lux",
@@ -2310,11 +2310,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Malphite": {
         "id": "Malphite",
@@ -2342,11 +2342,11 @@
         "species": [
             "Golem"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Malzahar": {
         "id": "Malzahar",
@@ -2375,11 +2375,11 @@
             "Human",
             "Void-Being"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Maokai": {
         "id": "Maokai",
@@ -2407,11 +2407,11 @@
         "species": [
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "MasterYi": {
         "id": "MasterYi",
@@ -2436,14 +2436,14 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Milio": {
         "id": "Milio",
@@ -2470,11 +2470,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2023,
-        "mana source": "Mana"
+        "year": 2023,
+        "mana": "Mana"
     },
     "MissFortune": {
         "id": "MissFortune",
@@ -2497,14 +2497,14 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Bilgewater"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "MonkeyKing": {
         "id": "MonkeyKing",
@@ -2529,14 +2529,14 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Ionia"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Mordekaiser": {
         "id": "Mordekaiser",
@@ -2563,11 +2563,11 @@
         "species": [
             "Revenant"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Morgana": {
         "id": "Morgana",
@@ -2597,11 +2597,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Naafiri": {
         "id": "Naafiri",
@@ -2625,14 +2625,14 @@
             "Darkin",
             "Dog"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Shurima"
         ],
-        "release year": 2023,
-        "mana source": "Mana"
+        "year": 2023,
+        "mana": "Mana"
     },
     "Nami": {
         "id": "Nami",
@@ -2660,11 +2660,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Nasus": {
         "id": "Nasus",
@@ -2691,11 +2691,11 @@
         "species": [
             "God-Warrior"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Nautilus": {
         "id": "Nautilus",
@@ -2722,11 +2722,11 @@
         "species": [
             "Revenant"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Neeko": {
         "id": "Neeko",
@@ -2754,11 +2754,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2018,
-        "mana source": "Mana"
+        "year": 2018,
+        "mana": "Mana"
     },
     "Nidalee": {
         "id": "Nidalee",
@@ -2786,12 +2786,12 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee",
-            "Ranged"
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Nilah": {
         "id": "Nilah",
@@ -2819,11 +2819,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2022,
-        "mana source": "Mana"
+        "year": 2022,
+        "mana": "Mana"
     },
     "Nocturne": {
         "id": "Nocturne",
@@ -2851,11 +2851,11 @@
             "Demon",
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Nunu": {
         "id": "Nunu",
@@ -2880,14 +2880,14 @@
             "Human",
             "Yeti"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Freljord"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Olaf": {
         "id": "Olaf",
@@ -2915,11 +2915,11 @@
             "Human",
             "Iceborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Orianna": {
         "id": "Orianna",
@@ -2946,11 +2946,11 @@
         "species": [
             "Golem"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Ornn": {
         "id": "Ornn",
@@ -2978,11 +2978,11 @@
             "God",
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2017,
-        "mana source": "Mana"
+        "year": 2017,
+        "mana": "Mana"
     },
     "Pantheon": {
         "id": "Pantheon",
@@ -3012,11 +3012,11 @@
             "Aspect",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Poppy": {
         "id": "Poppy",
@@ -3044,11 +3044,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Pyke": {
         "id": "Pyke",
@@ -3075,11 +3075,11 @@
         "species": [
             "Revenant"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2018,
-        "mana source": "Mana"
+        "year": 2018,
+        "mana": "Mana"
     },
     "Qiyana": {
         "id": "Qiyana",
@@ -3107,11 +3107,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2019,
-        "mana source": "Mana"
+        "year": 2019,
+        "mana": "Mana"
     },
     "Quinn": {
         "id": "Quinn",
@@ -3138,11 +3138,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2013,
-        "mana source": "Mana"
+        "year": 2013,
+        "mana": "Mana"
     },
     "Rakan": {
         "id": "Rakan",
@@ -3168,11 +3168,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2017,
-        "mana source": "Mana"
+        "year": 2017,
+        "mana": "Mana"
     },
     "Rammus": {
         "id": "Rammus",
@@ -3199,11 +3199,11 @@
         "species": [
             "Unknown"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "RekSai": {
         "id": "RekSai",
@@ -3226,15 +3226,15 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Shurima",
             "Void"
         ],
-        "release year": 2014,
-        "mana source": "Manaless"
+        "year": 2014,
+        "mana": "Manaless"
     },
     "Rell": {
         "id": "Rell",
@@ -3263,11 +3263,11 @@
             "Magically Altered",
             "Magicborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2020,
-        "mana source": "Mana"
+        "year": 2020,
+        "mana": "Mana"
     },
     "Renata": {
         "id": "Renata",
@@ -3292,14 +3292,14 @@
             "Chemically Altered",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Zaun"
         ],
-        "release year": 2022,
-        "mana source": "Mana"
+        "year": 2022,
+        "mana": "Mana"
     },
     "Renekton": {
         "id": "Renekton",
@@ -3326,11 +3326,11 @@
         "species": [
             "God-Warrior"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Manaless"
+        "year": 2011,
+        "mana": "Manaless"
     },
     "Rengar": {
         "id": "Rengar",
@@ -3358,11 +3358,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Manaless"
+        "year": 2012,
+        "mana": "Manaless"
     },
     "Riven": {
         "id": "Riven",
@@ -3390,11 +3390,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Manaless"
+        "year": 2011,
+        "mana": "Manaless"
     },
     "Rumble": {
         "id": "Rumble",
@@ -3421,11 +3421,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Manaless"
+        "year": 2011,
+        "mana": "Manaless"
     },
     "Ryze": {
         "id": "Ryze",
@@ -3453,11 +3453,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Samira": {
         "id": "Samira",
@@ -3484,11 +3484,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2020,
-        "mana source": "Mana"
+        "year": 2020,
+        "mana": "Mana"
     },
     "Sejuani": {
         "id": "Sejuani",
@@ -3516,11 +3516,11 @@
             "Human",
             "Iceborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Senna": {
         "id": "Senna",
@@ -3548,11 +3548,11 @@
             "Human",
             "Undead"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2019,
-        "mana source": "Mana"
+        "year": 2019,
+        "mana": "Mana"
     },
     "Seraphine": {
         "id": "Seraphine",
@@ -3581,11 +3581,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2020,
-        "mana source": "Mana"
+        "year": 2020,
+        "mana": "Mana"
     },
     "Sett": {
         "id": "Sett",
@@ -3613,11 +3613,11 @@
             "Human",
             "Vastayan"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2020,
-        "mana source": "Manaless"
+        "year": 2020,
+        "mana": "Manaless"
     },
     "Shaco": {
         "id": "Shaco",
@@ -3644,11 +3644,11 @@
         "species": [
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Shen": {
         "id": "Shen",
@@ -3675,11 +3675,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Shyvana": {
         "id": "Shyvana",
@@ -3707,11 +3707,11 @@
             "Dragon",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Manaless"
+        "year": 2011,
+        "mana": "Manaless"
     },
     "Singed": {
         "id": "Singed",
@@ -3740,11 +3740,11 @@
             "Chemically Altered",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Sion": {
         "id": "Sion",
@@ -3771,11 +3771,11 @@
         "species": [
             "Revenant"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Sivir": {
         "id": "Sivir",
@@ -3801,11 +3801,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Skarner": {
         "id": "Skarner",
@@ -3832,11 +3832,11 @@
         "species": [
             "Brackern"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Sona": {
         "id": "Sona",
@@ -3865,11 +3865,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Soraka": {
         "id": "Soraka",
@@ -3897,11 +3897,11 @@
         "species": [
             "Celestial"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Swain": {
         "id": "Swain",
@@ -3929,11 +3929,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Sylas": {
         "id": "Sylas",
@@ -3962,11 +3962,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2019,
-        "mana source": "Mana"
+        "year": 2019,
+        "mana": "Mana"
     },
     "Syndra": {
         "id": "Syndra",
@@ -3993,11 +3993,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "TahmKench": {
         "id": "TahmKench",
@@ -4023,15 +4023,15 @@
             "Demon",
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
             "Bilgewater",
             "Runeterra"
         ],
-        "release year": 2015,
-        "mana source": "Mana"
+        "year": 2015,
+        "mana": "Mana"
     },
     "Taliyah": {
         "id": "Taliyah",
@@ -4060,11 +4060,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2016,
-        "mana source": "Mana"
+        "year": 2016,
+        "mana": "Mana"
     },
     "Talon": {
         "id": "Talon",
@@ -4091,11 +4091,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Taric": {
         "id": "Taric",
@@ -4124,11 +4124,11 @@
             "Aspect",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Teemo": {
         "id": "Teemo",
@@ -4155,11 +4155,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Thresh": {
         "id": "Thresh",
@@ -4186,11 +4186,11 @@
         "species": [
             "Undead"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2013,
-        "mana source": "Mana"
+        "year": 2013,
+        "mana": "Mana"
     },
     "Tristana": {
         "id": "Tristana",
@@ -4218,11 +4218,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Trundle": {
         "id": "Trundle",
@@ -4251,11 +4251,11 @@
             "Iceborn",
             "Troll"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Tryndamere": {
         "id": "Tryndamere",
@@ -4283,11 +4283,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Manaless"
+        "year": 2009,
+        "mana": "Manaless"
     },
     "TwistedFate": {
         "id": "TwistedFate",
@@ -4311,14 +4311,14 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Bilgewater"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Twitch": {
         "id": "Twitch",
@@ -4346,11 +4346,11 @@
             "Chemically Altered",
             "Rat"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Udyr": {
         "id": "Udyr",
@@ -4380,11 +4380,11 @@
             "Human",
             "Spiritualist"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Urgot": {
         "id": "Urgot",
@@ -4414,11 +4414,11 @@
             "Cyborg",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Varus": {
         "id": "Varus",
@@ -4448,11 +4448,11 @@
             "Darkin",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Vayne": {
         "id": "Vayne",
@@ -4479,11 +4479,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Veigar": {
         "id": "Veigar",
@@ -4511,11 +4511,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Velkoz": {
         "id": "Velkoz",
@@ -4539,14 +4539,14 @@
         "species": [
             "Void-Being"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Void"
         ],
-        "release year": 2014,
-        "mana source": "Mana"
+        "year": 2014,
+        "mana": "Mana"
     },
     "Vex": {
         "id": "Vex",
@@ -4573,11 +4573,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2021,
-        "mana source": "Mana"
+        "year": 2021,
+        "mana": "Mana"
     },
     "Vi": {
         "id": "Vi",
@@ -4605,11 +4605,11 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Viego": {
         "id": "Viego",
@@ -4637,11 +4637,11 @@
         "species": [
             "Undead"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2021,
-        "mana source": "Manaless"
+        "year": 2021,
+        "mana": "Manaless"
     },
     "Viktor": {
         "id": "Viktor",
@@ -4669,11 +4669,11 @@
             "Cyborg",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Vladimir": {
         "id": "Vladimir",
@@ -4702,11 +4702,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2010,
-        "mana source": "Manaless"
+        "year": 2010,
+        "mana": "Manaless"
     },
     "Volibear": {
         "id": "Volibear",
@@ -4735,11 +4735,11 @@
             "God",
             "Spirit"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Warwick": {
         "id": "Warwick",
@@ -4769,11 +4769,11 @@
             "Cyborg",
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Xayah": {
         "id": "Xayah",
@@ -4799,11 +4799,11 @@
         "species": [
             "Vastayan"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2017,
-        "mana source": "Mana"
+        "year": 2017,
+        "mana": "Mana"
     },
     "Xerath": {
         "id": "Xerath",
@@ -4830,11 +4830,11 @@
         "species": [
             "God-Warrior"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "XinZhao": {
         "id": "XinZhao",
@@ -4858,7 +4858,7 @@
         "species": [
             "Human"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
         "region": [
@@ -4866,8 +4866,8 @@
             "Ionia",
             "Noxus"
         ],
-        "release year": 2010,
-        "mana source": "Mana"
+        "year": 2010,
+        "mana": "Mana"
     },
     "Yasuo": {
         "id": "Yasuo",
@@ -4895,11 +4895,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2013,
-        "mana source": "Manaless"
+        "year": 2013,
+        "mana": "Manaless"
     },
     "Yone": {
         "id": "Yone",
@@ -4928,11 +4928,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2020,
-        "mana source": "Manaless"
+        "year": 2020,
+        "mana": "Manaless"
     },
     "Yorick": {
         "id": "Yorick",
@@ -4960,11 +4960,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2011,
-        "mana source": "Mana"
+        "year": 2011,
+        "mana": "Mana"
     },
     "Yuumi": {
         "id": "Yuumi",
@@ -4992,11 +4992,11 @@
             "Cat",
             "Magically Altered"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2019,
-        "mana source": "Mana"
+        "year": 2019,
+        "mana": "Mana"
     },
     "Zac": {
         "id": "Zac",
@@ -5024,11 +5024,11 @@
         "species": [
             "Golem"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2013,
-        "mana source": "Manaless"
+        "year": 2013,
+        "mana": "Manaless"
     },
     "Zed": {
         "id": "Zed",
@@ -5055,11 +5055,11 @@
             "Human",
             "Magically Altered"
         ],
-        "range type": [
+        "range": [
             "Melee"
         ],
-        "release year": 2012,
-        "mana source": "Manaless"
+        "year": 2012,
+        "mana": "Manaless"
     },
     "Zeri": {
         "id": "Zeri",
@@ -5086,11 +5086,11 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2022,
-        "mana source": "Mana"
+        "year": 2022,
+        "mana": "Mana"
     },
     "Ziggs": {
         "id": "Ziggs",
@@ -5117,11 +5117,11 @@
         "species": [
             "Yordle"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     },
     "Zilean": {
         "id": "Zilean",
@@ -5146,15 +5146,15 @@
             "Human",
             "Magicborn"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
         "region": [
             "Runeterra",
             "Shurima"
         ],
-        "release year": 2009,
-        "mana source": "Mana"
+        "year": 2009,
+        "mana": "Mana"
     },
     "Zoe": {
         "id": "Zoe",
@@ -5182,11 +5182,11 @@
             "Aspect",
             "Human"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2017,
-        "mana source": "Mana"
+        "year": 2017,
+        "mana": "Mana"
     },
     "Zyra": {
         "id": "Zyra",
@@ -5213,10 +5213,10 @@
         "species": [
             "Unknown"
         ],
-        "range type": [
-            "Ranged"
+        "range": [
+            "Range"
         ],
-        "release year": 2012,
-        "mana source": "Mana"
+        "year": 2012,
+        "mana": "Mana"
     }
 }
